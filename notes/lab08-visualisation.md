@@ -57,6 +57,13 @@ lty = 1
 col = c("red", "blue", "black")设置颜色
 legend() 就是添加右上角那个图例
 "topright" = 放右上角
+<br>
+## GGPLOT
+<img width="784" height="523" alt="截屏2026-10-20 11 27 00" src="https://github.com/user-attachments/assets/3398cc2a-982f-4fba-b29f-8b9ecc8a50bc" />
+<img width="782" height="594" alt="截屏2026-10-20 11 29 13" src="https://github.com/user-attachments/assets/82778a79-5c06-40cf-b729-2526a98cd79b" />
+
+
+
 <img width="688" height="351" alt="截屏2026-10-20 09 51 33" src="https://github.com/user-attachments/assets/db880738-07b9-48f4-8700-7484a9f1b855" />
 <br>Add lines: 直接 + GEOM_FUNCTION<br>
 <img width="417" height="328" alt="截屏2026-10-20 09 52 34" src="https://github.com/user-attachments/assets/a0fd7324-e48e-46b7-b34a-81b0d0f53bd1" />
