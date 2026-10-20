@@ -62,6 +62,9 @@ col = c("red", "blue", "black")设置颜色
 legend() 就是添加右上角那个图例
 "topright" = 放右上角
 
+> [!TIP]
+> plot(out_lv): 画两个图分开
+
 ## GGPLOT
 <img width="457" height="366" alt="截屏2026-10-20 13 48 58" src="https://github.com/user-attachments/assets/063d0d78-f85b-4060-978a-7f87f16dcc6b" />
 
