@@ -9,3 +9,4 @@
 - [Lab 05 — Modelling Random Events](notes/lab05-modelling-random-events.md)
 - [Lab 06 — Heterogenous Data Container](notes/lab06-heterogenous-data-container.md)
 - [Lab 07 — Work With Files and Data](notes/lab07-work-with-files-and-data.md)
+- [Lab 08 — Visualisation](notes/lab08-visualisation.md)
