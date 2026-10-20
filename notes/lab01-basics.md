@@ -1,5 +1,6 @@
 # Lab01
 <img width="742" height="306" alt="截屏2026-10-20 13 33 59" src="https://github.com/user-attachments/assets/635e5d90-8c68-4527-957c-c1c449662c98" />
+<rd>
 整个流程是：
 修改文件 → Stage → Commit → Push
 而 Pull 是反方向：把 GitHub 上的更新同步回本地。
