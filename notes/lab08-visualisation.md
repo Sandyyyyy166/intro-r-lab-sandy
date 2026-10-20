@@ -34,6 +34,29 @@ boxplot(y-axis ~ x-axis, Datasets)
 ```
 <br>
 <img width="631" height="334" alt="截屏2026-10-20 09 40 49" src="https://github.com/user-attachments/assets/a69b0094-508c-4bb0-bb80-a12112c2f316" />
+<br>
+R会算sin(1), sin(2), sin(3), ... sin(10)
+然后它创建了三个vector：
+sin(1:10) * 0.1
+sin(1:10) * 3
+sin(1:10) * 1.8
+不同的高度的波
+cbind = column bind，把三个 vector 按列拼成一个 matrix
+          [,1]       [,2]       [,3]
+
+1      sin(1)*0.1  sin(1)*3   sin(1)*1.8
+2      sin(2)*0.1  sin(2)*3   sin(2)*1.8
+3      sin(3)*0.1  sin(3)*3   sin(3)*1.8
+...
+10     sin(10)*0.1 sin(10)*3  sin(10)*1.8
+matplot(...)把 matrix 的每一列分别画出来
+type = "l"
+  "l" = line，所以画线，而不是只画点
+lty = 1
+  lty = line type，1 是普通实线
+col = c("red", "blue", "black")设置颜色
+legend() 就是添加右上角那个图例
+"topright" = 放右上角
 <img width="688" height="351" alt="截屏2026-10-20 09 51 33" src="https://github.com/user-attachments/assets/db880738-07b9-48f4-8700-7484a9f1b855" />
 <br>Add lines: 直接 + GEOM_FUNCTION<br>
 <img width="417" height="328" alt="截屏2026-10-20 09 52 34" src="https://github.com/user-attachments/assets/a0fd7324-e48e-46b7-b34a-81b0d0f53bd1" />
