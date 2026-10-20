@@ -27,7 +27,9 @@ index (x)    value (y)
 6            9
 <br>
 <img width="681" height="331" alt="截屏2026-10-20 09 35 55" src="https://github.com/user-attachments/assets/1ad53aa3-953b-4f0d-adbb-3aaeeaab35fe" />
+
 "pch": solidity of a point 点的深度
+
 <img width="544" height="340" alt="截屏2026-10-20 09 38 00" src="https://github.com/user-attachments/assets/df9afcf8-dd46-424f-a080-27b918766160" />
 <img width="650" height="316" alt="截屏2026-10-20 09 38 17" src="https://github.com/user-attachments/assets/d6139381-f074-4d93-9bee-df1217876e62" />
 
