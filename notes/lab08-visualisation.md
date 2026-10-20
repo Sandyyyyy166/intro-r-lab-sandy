@@ -1,12 +1,14 @@
 # Lab08 Visualisation
 <img width="705" height="78" alt="截屏2026-10-20 09 26 30" src="https://github.com/user-attachments/assets/91b212ad-c218-4bc1-a287-08d12e92b876" />
-<br>“```{r}”告诉 R Markdown：这不是单纯展示代码，请执行这段 R code
+
+“```{r}”告诉 R Markdown：这不是单纯展示代码，请执行这段 R code
 然后你可以 Knit / Render .Rmd，生成带有代码、结果、图表和文字的报告，例如 HTML
 更多查询：
 ```r
 ?graphics
 library(help = "graphics")
 ```
+
 ## Plotting with R Base
 <img width="685" height="294" alt="截屏2026-10-20 09 34 13" src="https://github.com/user-attachments/assets/476bc0b5-89ed-4c59-808c-aaab8bc319c9" />
 <img width="557" height="329" alt="截屏2026-10-20 09 34 33" src="https://github.com/user-attachments/assets/856aa7d5-b1b9-49d4-aae9-3e9ea6c5bfec" />
@@ -28,13 +30,13 @@ index (x)    value (y)
 "pch": solidity of a point 点的深度
 <img width="544" height="340" alt="截屏2026-10-20 09 38 00" src="https://github.com/user-attachments/assets/df9afcf8-dd46-424f-a080-27b918766160" />
 <img width="650" height="316" alt="截屏2026-10-20 09 38 17" src="https://github.com/user-attachments/assets/d6139381-f074-4d93-9bee-df1217876e62" />
-<br>
+
 ```r
 boxplot(y-axis ~ x-axis, Datasets)
 ```
-<br>
+
 <img width="631" height="334" alt="截屏2026-10-20 09 40 49" src="https://github.com/user-attachments/assets/a69b0094-508c-4bb0-bb80-a12112c2f316" />
-<br>
+
 R会算sin(1), sin(2), sin(3), ... sin(10)
 然后它创建了三个vector：
 sin(1:10) * 0.1
@@ -57,14 +59,12 @@ lty = 1
 col = c("red", "blue", "black")设置颜色
 legend() 就是添加右上角那个图例
 "topright" = 放右上角
-<br>
+
 ## GGPLOT
 <img width="457" height="366" alt="截屏2026-10-20 13 48 58" src="https://github.com/user-attachments/assets/063d0d78-f85b-4060-978a-7f87f16dcc6b" />
 
 <img width="784" height="523" alt="截屏2026-10-20 11 27 00" src="https://github.com/user-attachments/assets/3398cc2a-982f-4fba-b29f-8b9ecc8a50bc" />
 <img width="782" height="594" alt="截屏2026-10-20 11 29 13" src="https://github.com/user-attachments/assets/82778a79-5c06-40cf-b729-2526a98cd79b" />
-
-
 
 <img width="688" height="351" alt="截屏2026-10-20 09 51 33" src="https://github.com/user-attachments/assets/db880738-07b9-48f4-8700-7484a9f1b855" />
 <br>Add lines: 直接 + GEOM_FUNCTION<br>
