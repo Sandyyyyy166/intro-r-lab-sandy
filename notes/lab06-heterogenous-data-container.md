@@ -24,18 +24,28 @@ weather <- data.frame(
 Atomic vector = 一排同一种 type 的数据
 
 ## str(): 可以理解成 structure，查找内部结构
-List of 4/
-$ species : chr [1:4] .../
-$ count   : num [1:4] .../
-$ observer: chr "Maya"/
-$ place   : chr "Capybara Creek"/
-可以看内部结构：/
-bird_observed 是 List/
-│/
-├── species → character vector，长度4/
-├── count → numeric vector，长度4/
-├── observer → character，长度1/
-└── place → character，长度1/
+List of 4
+
+$ species : chr [1:4] ...
+
+$ count   : num [1:4] ...
+
+$ observer: chr "Maya"
+
+$ place   : chr "Capybara Creek"
+
+可以看内部结构：
+bird_observed 是 List
+
+│
+
+├── species → character vector，长度4
+
+├── count → numeric vector，长度4
+
+├── observer → character，长度1
+
+└── place → character，长度1
 
 ## $：从 List 里面拿东西
 bird_observed$count -》打开 bird_observed，拿出里面名字叫 count 的东西 -〉2 1 5 13
