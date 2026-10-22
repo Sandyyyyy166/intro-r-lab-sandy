@@ -8,10 +8,16 @@
 ?graphics
 library(help = "graphics")
 ```
+<img width="746" height="602" alt="截屏2026-10-22 17 57 21" src="https://github.com/user-attachments/assets/e5bd553a-6eb1-44f3-b87e-c92a7519c990" />
 
 ## Plotting with R Base
 <img width="685" height="294" alt="截屏2026-10-20 09 34 13" src="https://github.com/user-attachments/assets/476bc0b5-89ed-4c59-808c-aaab8bc319c9" />
-<img width="557" height="329" alt="截屏2026-10-20 09 34 33" src="https://github.com/user-attachments/assets/856aa7d5-b1b9-49d4-aae9-3e9ea6c5bfec" />
+<img width="557" height="329" alt="截屏2026-10-20 09 34 33" src="https://github.com/user-attachments/assets/856aa7d5-b1b9-49d4-aae9-3e9ea6c5bfec" />  
+*折线图*
+<img width="341" height="588" alt="截屏2026-10-22 17 46 17" src="https://github.com/user-attachments/assets/08390396-54b4-4503-8bde-b8430bbc8e07" />
+<img width="755" height="380" alt="截屏2026-10-22 17 47 06" src="https://github.com/user-attachments/assets/85d8f201-cc65-490a-8d47-b257fb4048aa" />
+
+
 <img width="365" height="328" alt="截屏2026-10-20 09 36 13" src="https://github.com/user-attachments/assets/11012fec-110e-45c4-80db-f90b96520496" />
 <br>plot(x, y): 用 x 当横坐标，y 当纵坐标 -- R 会把对应位置配成坐标
 (1,2)
@@ -65,6 +71,36 @@ legend() 就是添加右上角那个图例
 > [!TIP]
 > plot(out_lv): 画两个图分开
 
+*scatter plot*
+```r
+plot(
+  frogs$rain_mm,
+  frogs$calls,
+  pch = 19,
+  col = "steelblue"
+)
+```
+<img width="398" height="625" alt="截屏2026-10-22 17 48 48" src="https://github.com/user-attachments/assets/3c617d33-8ed1-4cb3-903e-2364968fcf84" />
+<img width="470" height="428" alt="截屏2026-10-22 17 51 26" src="https://github.com/user-attachments/assets/aaa76d26-6133-462e-8353-f3a918db7ff8" />  
+
+*histogram*
+```r
+hist(frogs$calls, breaks = 8) # 叫声数量通常集中在哪个范围？
+```
+
+*boxplot*
+```r
+boxplot(calls ~ weather, data = frogs) # 湿夜和干夜的叫声数量有什么不同？
+```
+
+*barchart*
+```r
+barplot(species$calls,
+        names.arg = species$species) # 不同青蛙种类分别记录了多少叫声？
+```
+**Histogram 用于连续数值的分布；Bar Chart 用于比较不同类别。而 Boxplot 用来比较不同组的数据分布、中位数和离散程度。**
+
+
 ## GGPLOT
 <img width="457" height="366" alt="截屏2026-10-20 13 48 58" src="https://github.com/user-attachments/assets/063d0d78-f85b-4060-978a-7f87f16dcc6b" />
 
@@ -75,5 +111,22 @@ legend() 就是添加右上角那个图例
 <br>Add lines: 直接 + GEOM_FUNCTION<br>
 <img width="417" height="328" alt="截屏2026-10-20 09 52 34" src="https://github.com/user-attachments/assets/a0fd7324-e48e-46b7-b34a-81b0d0f53bd1" />
 
+## 保存PNG
+```r
+dir.create("png", showWarnings = FALSE)
+
+png_file <- file.path("png", "frog_calls_vs_rain.png")
+
+png(png_file, width = 7, height = 4.5,
+    units = "in", res = 150)
+
+plot(frogs$rain_mm, frogs$calls,
+     pch = 19, col = "steelblue")
+
+abline(fit, col = "red", lwd = 2)
+
+dev.off()
+```
+<img width="315" height="644" alt="截屏2026-10-22 17 56 43" src="https://github.com/user-attachments/assets/8c96b156-5109-40b0-b3c2-2dcd9f2c25ce" />
 
 
