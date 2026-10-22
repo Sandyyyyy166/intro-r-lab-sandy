@@ -129,4 +129,18 @@ dev.off()
 ```
 <img width="315" height="644" alt="截屏2026-10-22 17 56 43" src="https://github.com/user-attachments/assets/8c96b156-5109-40b0-b3c2-2dcd9f2c25ce" />
 
+<img width="464" height="565" alt="截屏2026-10-22 18 16 25" src="https://github.com/user-attachments/assets/a331970b-3847-4b37-8bb6-7a9e9dcaae7f" />
+<img width="598" height="603" alt="截屏2026-10-22 18 16 44" src="https://github.com/user-attachments/assets/b9eb1468-0b09-4ba3-86ab-b0cb597738ce" />
+<img width="476" height="630" alt="截屏2026-10-22 18 17 19" src="https://github.com/user-attachments/assets/bb1d0ab7-d60d-470b-b334-75d23481c545" />
+<img width="473" height="645" alt="截屏2026-10-22 18 17 36" src="https://github.com/user-attachments/assets/7e3fb683-a0da-4bba-9838-340c2a7600d5" />
+<img width="575" height="587" alt="截屏2026-10-22 18 17 53" src="https://github.com/user-attachments/assets/59bfac9e-dd01-4bbc-a134-0741b30f9834" />
+<img width="572" height="606" alt="截屏2026-10-22 18 18 09" src="https://github.com/user-attachments/assets/880bea1d-4e16-4afd-b30b-8bf21e5bb7db" />
+<img width="465" height="678" alt="截屏2026-10-22 18 18 24" src="https://github.com/user-attachments/assets/1b4e3adf-9816-455a-b5b1-bfefe8f467da" />
+<img width="469" height="586" alt="截屏2026-10-22 18 18 42" src="https://github.com/user-attachments/assets/23e0ecba-18cc-40a5-9987-ebf40a0776f0" />
+<img width="710" height="673" alt="截屏2026-10-22 18 19 00" src="https://github.com/user-attachments/assets/55f3e07e-cb85-44f6-b4a0-d3913218fd6b" />
+<img width="462" height="548" alt="截屏2026-10-22 18 19 14" src="https://github.com/user-attachments/assets/98e91848-b4b1-442e-b087-d39fef347775" />
+
+
+
+
 
