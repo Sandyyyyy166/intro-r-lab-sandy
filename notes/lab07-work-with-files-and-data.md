@@ -26,6 +26,27 @@ CSV = Comma-Separated Values 逗号分隔值文件 本质上其实只是一个�
 每一行 = 一条 observation。每个逗号 = 分隔不同 column。  
 Excel 可以打开 CSV，但 CSV 本身不是 Excel 文件。
 
+```r
+sightings <- read.csv("data/sightings.csv")
+```
+右：= 找到这个 CSV → 读取它 → 转成 data frame。  
+左：= 把得到的 data frame 保存到 sightings。
+```r
+read.csv("data/sightings.csv") # 相对路径
+```
+实际理解成：/Users/wuyu/r_work/intro-r-lab-07/data/sightings.csv  
+
+## 读数据
+```r
+head(sightings) # 默认显示前 6 行 - head() = 偷看数据顶部。
+str(sightings) # 看数据结构 - 这是 data frame 吗？几行几列？column 名叫什么？每个 column 是什么 type？
+summary(weather) # Min.;1st Qu.;Median;Mean;3rd Qu.;Max.;NA's;找NA
+nrow(sightings) # = number of rows
+ncol(sightings) # = number of columns
+sightings$count # 从 sightings 这张表里，把 count 这一列拿出来
+sum(sightings$count)
+mean(weather$temp_c)
+```
 
 ## NA and NULL
 NA: missing data
@@ -76,6 +97,10 @@ any(is.na(c(1:10, NA))) # TRUE 解释见下面
 c(1:10, NA)得到1 2 3 4 5 6 7 8 9 10 NA
 is.na(c(1:10, NA))相当于FALSE FALSE FALSE ... FALSE TRUE
 any(...)问的是：这里面有没有至少一个 TRUE？所以是TRUE
+
+```r
+na.rm = TRUE # NA remove 比如sum(rain, na.rm = TRUE)
+```
 
 <img width="782" height="628" alt="截屏2026-10-19 13 45 16" src="https://github.com/user-attachments/assets/7f975365-f215-4012-bfb7-33e6fd86c9be" />
 <img width="782" height="648" alt="截屏2026-10-19 13 45 37" src="https://github.com/user-attachments/assets/5b4e9c41-50d8-41f8-a774-ca811d10f2cd" />
