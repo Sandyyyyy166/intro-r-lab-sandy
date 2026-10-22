@@ -20,7 +20,8 @@ Data Frame
    ↓  
 merge 两张表   
    ↓  
-write.csv() 保存结果
+write.csv() 保存结果,把结果存回硬盘,R → CSV
+<img width="418" height="481" alt="截屏2026-10-22 15 43 49" src="https://github.com/user-attachments/assets/b7758b2a-ea68-46ee-b36c-6189f680af6f" />
 
 CSV = Comma-Separated Values 逗号分隔值文件 本质上其实只是一个纯文本文件。  
 每一行 = 一条 observation。每个逗号 = 分隔不同 column。  
@@ -46,6 +47,36 @@ ncol(sightings) # = number of columns
 sightings$count # 从 sightings 这张表里，把 count 这一列拿出来
 sum(sightings$count)
 mean(weather$temp_c)
+```
+
+## subset()
+```r
+canopy <- subset(sightings, site == "Canopy") # 只留下 TRUE 的 rows
+```
+
+## == comparison
+`x == 5` 是在问：x 等于 5 吗？
+
+## aggregate
+<img width="755" height="530" alt="截屏2026-10-22 15 37 04" src="https://github.com/user-attachments/assets/2ec7df6c-31a1-4697-858b-1e1ee5dc5091" />
+<img width="756" height="672" alt="截屏2026-10-22 15 37 41" src="https://github.com/user-attachments/assets/6fbb1f1d-16f6-4375-b388-c2f9fa9b37ce" />
+
+## 给data frame加column
+<img width="763" height="658" alt="截屏2026-10-22 15 41 45" src="https://github.com/user-attachments/assets/ec22b726-e98e-4a76-95ae-69467d5142e5" />
+<img width="749" height="678" alt="截屏2026-10-22 15 42 03" src="https://github.com/user-attachments/assets/5b8c1183-d546-4dee-9cae-05043f0b5e7b" />
+
+## merge()
+```r
+merge(
+    sightings,
+    weather,
+    by = c("date", "site") # 把当天、那个 site 的天气放到对应的 sighting 旁边
+)
+merged <- merge(
+    table1,
+    table2,
+    by = c("date", "site")
+)
 ```
 
 ## NA and NULL
