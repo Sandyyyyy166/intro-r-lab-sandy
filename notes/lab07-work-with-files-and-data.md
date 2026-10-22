@@ -1,30 +1,30 @@
 # Lab 07 Work with files and data
 ## csv
-CSV 文件/
-   ↓/
-read.csv()/
-   ↓/
-Data Frame/
-   ↓/
-先检查数据/
-   ↓/
-发现 NA / 检查结构/
-   ↓/
-计算/
-   ↓/
-筛选 subset()/
-   ↓/
-分组 aggregate()/
-   ↓/
-增加新 column/
-   ↓/
-merge 两张表/
-   ↓/
-write.csv() 保存结果/
+CSV 文件   
+   ↓   
+read.csv()   
+   ↓   
+Data Frame  
+   ↓   
+先检查数据  
+   ↓  
+发现 NA / 检查结构  
+   ↓   
+计算  
+   ↓   
+筛选 subset()   
+   ↓   
+分组 aggregate()   
+   ↓  
+增加新 column  
+   ↓  
+merge 两张表   
+   ↓  
+write.csv() 保存结果
 
-CSV = Comma-Separated Values 逗号分隔值文件 本质上其实只是一个纯文本文件。/
-每一行 = 一条 observation。每个逗号 = 分隔不同 column。/
-Excel 可以打开 CSV，但 CSV 本身不是 Excel 文件。/
+CSV = Comma-Separated Values 逗号分隔值文件 本质上其实只是一个纯文本文件。  
+每一行 = 一条 observation。每个逗号 = 分隔不同 column。  
+Excel 可以打开 CSV，但 CSV 本身不是 Excel 文件。
 
 
 ## NA and NULL
