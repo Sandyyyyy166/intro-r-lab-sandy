@@ -13,6 +13,7 @@ library(help = "graphics")
 ## Plotting with R Base
 <img width="685" height="294" alt="截屏2026-10-20 09 34 13" src="https://github.com/user-attachments/assets/476bc0b5-89ed-4c59-808c-aaab8bc319c9" />
 <img width="557" height="329" alt="截屏2026-10-20 09 34 33" src="https://github.com/user-attachments/assets/856aa7d5-b1b9-49d4-aae9-3e9ea6c5bfec" />  
+
 *折线图*
 <img width="341" height="588" alt="截屏2026-10-22 17 46 17" src="https://github.com/user-attachments/assets/08390396-54b4-4503-8bde-b8430bbc8e07" />
 <img width="755" height="380" alt="截屏2026-10-22 17 47 06" src="https://github.com/user-attachments/assets/85d8f201-cc65-490a-8d47-b257fb4048aa" />
