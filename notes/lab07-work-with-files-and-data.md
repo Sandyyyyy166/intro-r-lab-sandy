@@ -21,6 +21,7 @@ Data Frame
 merge 两张表   
    ↓  
 write.csv() 保存结果,把结果存回硬盘,R → CSV
+
 <img width="418" height="481" alt="截屏2026-10-22 15 43 49" src="https://github.com/user-attachments/assets/b7758b2a-ea68-46ee-b36c-6189f680af6f" />
 
 CSV = Comma-Separated Values 逗号分隔值文件 本质上其实只是一个纯文本文件。  
@@ -57,7 +58,8 @@ canopy <- subset(sightings, site == "Canopy") # 只留下 TRUE 的 rows
 ## == comparison
 `x == 5` 是在问：x 等于 5 吗？
 
-## aggregate
+## aggregate 按照某个类别分组（group），然后对每一组分别进行计算
+FUN可以根据研究问题，换成不同函数，比如mean/max/min/length
 <img width="755" height="530" alt="截屏2026-10-22 15 37 04" src="https://github.com/user-attachments/assets/2ec7df6c-31a1-4697-858b-1e1ee5dc5091" />
 <img width="756" height="672" alt="截屏2026-10-22 15 37 41" src="https://github.com/user-attachments/assets/6fbb1f1d-16f6-4375-b388-c2f9fa9b37ce" />
 
