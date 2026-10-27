@@ -6,8 +6,11 @@
 
 Remember:
 • Not statistically significant ¹ no clinical difference
+
 • Statistically significant ¹ important
+
 • P-values depend on the sample size
+
 • P-values give no information regarding direction or magnitude of effect
 
 ## Errors
@@ -15,16 +18,23 @@ Remember:
 
 **Type I error (significance level of a test)**
 • We reject the null hypothesis although the null hypothesis is true
+
 • The probability of type I error is the significance level, written as α
+
 **Type II error (related to the power of a test)**
 • We fail to reject the null hypothesis although the null hypothesis is false
+
 • The probability of type II error is written as β
+
 • Power is defined as 1-β
+
 *Statistical power:* 
 “What’s the probability we detect a difference, given there is a difference?”
 **图示**
 • 黄色区域：这个时候H1是对的，但是我们得出的β要reject H1
+
 • 绿色区域：这个时候H0是对的，但是我们得出的α要reject H0
+
 • 虚线：critical value告诉我们rejection region在哪
 <img width="360" height="216" alt="截屏2026-10-27 09 48 36" src="https://github.com/user-attachments/assets/ecbd23e7-3233-49a6-b77f-36dcb187dbb6" />
 
@@ -38,7 +48,9 @@ Remember:
 <img width="626" height="285" alt="截屏2026-10-27 10 02 03" src="https://github.com/user-attachments/assets/51d982d8-e902-44aa-8461-15a5fbf89fbc" />
 
 • Can be used for small samples and large samples
+
 • Assumes that population distributions are normal and the population standard deviation is the same in the two groups
+
 • May not be appropriate to use when the sample standard deviations (s1, s2) are very different
 
 ## Paired t-test
