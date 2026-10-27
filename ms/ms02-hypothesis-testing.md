@@ -56,3 +56,28 @@ Remember:
 ## Paired t-test
 <img width="587" height="326" alt="截屏2026-10-27 10 14 21" src="https://github.com/user-attachments/assets/c2d863e6-aafa-4fcd-88c0-9b9fbaa5d608" />
 
+## Measure outcome
+### Odds: 
+Probability of an event occurring divided by the probability that the event does not happen
+### Risk (cumulative incidence)：
+
+<img width="792" height="358" alt="截屏2026-10-27 10 58 23" src="https://github.com/user-attachments/assets/84b0630c-04f3-4407-95da-e69efcf30d63" />
+<img width="713" height="353" alt="截屏2026-10-27 10 56 48" src="https://github.com/user-attachments/assets/4a93c6fe-6584-43c8-9436-dce622e4c713" />
+<img width="741" height="358" alt="截屏2026-10-27 11 02 44" src="https://github.com/user-attachments/assets/a5176a4b-b0c4-4fa4-bfd4-fd3d748adead" />
+
+Incidence rate: 95% confidence interval
+95% CI: Estimate ± 1.96 × SE
+
+<img width="609" height="304" alt="截屏2026-10-27 11 08 01" src="https://github.com/user-attachments/assets/768581b2-9126-4960-9568-853c2067252a" />
+<img width="525" height="279" alt="截屏2026-10-27 11 08 17" src="https://github.com/user-attachments/assets/9ac80885-9321-4244-9fd4-990c68110074" />
+
+### Prevalence
+— What proportion (fraction/percentage) of the population is affected by the disease
+<img width="581" height="289" alt="截屏2026-10-27 11 11 15" src="https://github.com/user-attachments/assets/8f071b87-8625-4c12-9368-7785da9537c4" />
+- Prevalence is not a measure of risk
+- 
+
+
+
+
+
