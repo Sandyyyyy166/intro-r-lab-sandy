@@ -132,6 +132,20 @@ risk at exposed / risk at unexposed
 
 所以上个例子就应该是(84/3000) - (87/5000)
 
+> [!IMPORTANT]
+> Prevalence：在某个时间点，有多少活着的人正在患病？
+> Cumulative incidence：在一段时间内，最初未患病的人中有多少新发病例？
+> Person-time：每个人贡献了多少尚未患病、仍处于风险中的时间？
+> Incidence rate：每单位 person-time 发生多少新病例？
+> 
+> <img width="454" height="320" alt="截屏2026-10-27 13 54 14" src="https://github.com/user-attachments/assets/e69ee127-d51c-492d-a677-2a6c89b899f2" />
+> <img width="540" height="536" alt="截屏2026-10-27 13 58 59" src="https://github.com/user-attachments/assets/0243bcd7-2b72-45e6-95ee-282a6a652900" />
+> <img width="570" height="523" alt="截屏2026-10-27 13 59 15" src="https://github.com/user-attachments/assets/5a663a95-3a4e-44e1-b687-3644e7e030f1" />
+> <img width="746" height="628" alt="截屏2026-10-27 13 59 34" src="https://github.com/user-attachments/assets/6c07120a-8914-45fe-a8df-88c8bad0f167" />
+> <img width="777" height="614" alt="截屏2026-10-27 14 02 37" src="https://github.com/user-attachments/assets/46a430ac-f728-4e2c-a420-c847799363b5" />
+> <img width="584" height="647" alt="截屏2026-10-27 14 03 54" src="https://github.com/user-attachments/assets/3bd08cca-d5a6-432a-96ff-920e7bee07c1" />
+> <img width="662" height="573" alt="截屏2026-10-27 14 05 09" src="https://github.com/user-attachments/assets/377dd7a8-97d9-4102-9855-de958975e0e6" />
+
 ### Odds ratio
 <img width="614" height="274" alt="截屏2026-10-27 13 10 11" src="https://github.com/user-attachments/assets/8ee12c8d-10a4-4adf-816b-e5ca17c35df6" />
 
