@@ -116,6 +116,8 @@ Incidence rate: 95% confidence interval
 > <img width="453" height="629" alt="截屏2026-10-27 14 41 21" src="https://github.com/user-attachments/assets/065898eb-2455-4bce-b78e-086ff1feaf10" />
 > <img width="481" height="497" alt="截屏2026-10-27 14 41 38" src="https://github.com/user-attachments/assets/c6b3f0a2-4f16-4523-8e12-3a6786f3a7c1" />
 > <img width="590" height="639" alt="截屏2026-10-27 14 42 14" src="https://github.com/user-attachments/assets/900449b6-03c4-47f2-b793-606913f2aa38" />
+> <img width="535" height="494" alt="截屏2026-10-27 22 42 45" src="https://github.com/user-attachments/assets/390a0b0e-15fd-4c27-a8b0-ce1d9d3ce2eb" />
+
 
 
 *Exercise*
