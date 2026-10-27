@@ -108,9 +108,15 @@ Incidence rate: 95% confidence interval
 > <img width="625" height="488" alt="截屏2026-10-27 11 34 48" src="https://github.com/user-attachments/assets/b9fd7d65-10fa-413e-94e8-2775d7b94995" />
 > <img width="645" height="270" alt="截屏2026-10-27 14 09 26" src="https://github.com/user-attachments/assets/0ffa03c6-759a-410f-9468-18d620855670" />
 > <img width="635" height="339" alt="截屏2026-10-27 14 22 56" src="https://github.com/user-attachments/assets/ade7eea4-b7ff-4ffb-b42a-bf0dbf8e48f2" />
-> **公示表**
+> **公式表**
 > <img width="679" height="443" alt="截屏2026-10-27 14 33 31" src="https://github.com/user-attachments/assets/0f26ffc9-6393-4169-aba5-e17def5c12e4" />
 > <img width="577" height="615" alt="截屏2026-10-27 14 33 53" src="https://github.com/user-attachments/assets/a2db39bf-4b2a-4a81-93fa-9d11fe376a08" />
+> **Standard Error**
+> <img width="475" height="684" alt="截屏2026-10-27 14 40 44" src="https://github.com/user-attachments/assets/4e34dcf8-3fd8-4e71-85f9-6eee05a754d7" />
+> <img width="453" height="629" alt="截屏2026-10-27 14 41 21" src="https://github.com/user-attachments/assets/065898eb-2455-4bce-b78e-086ff1feaf10" />
+> <img width="481" height="497" alt="截屏2026-10-27 14 41 38" src="https://github.com/user-attachments/assets/c6b3f0a2-4f16-4523-8e12-3a6786f3a7c1" />
+> <img width="590" height="639" alt="截屏2026-10-27 14 42 14" src="https://github.com/user-attachments/assets/900449b6-03c4-47f2-b793-606913f2aa38" />
+
 
 *Exercise*
 
