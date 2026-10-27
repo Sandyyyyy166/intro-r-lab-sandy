@@ -70,9 +70,9 @@ incidence) or a rate
 <img width="741" height="358" alt="截屏2026-10-27 11 02 44" src="https://github.com/user-attachments/assets/a5176a4b-b0c4-4fa4-bfd4-fd3d748adead" />
 > [!TIP]
 > 为什么Incidence 可以是 Risk，也可以是 Rate
+> 
 > <img width="605" height="572" alt="截屏2026-10-27 11 28 08" src="https://github.com/user-attachments/assets/8047ac92-8c56-470d-b445-1d704d639fcd" />
 > <img width="661" height="660" alt="截屏2026-10-27 11 28 46" src="https://github.com/user-attachments/assets/5b14bc6c-ecc6-45d4-96f9-30f6966bb3b4" />
-
 
 Incidence rate: 95% confidence interval
 95% CI: Estimate ± 1.96 × SE
@@ -89,6 +89,7 @@ Incidence rate: 95% confidence interval
 > Incidence = 有多少人新得病？
 > Prevalence = 现在有多少人患病？
 > NEW cases vs EXISTING cases
+> 
 > <img width="753" height="685" alt="截屏2026-10-27 11 24 57" src="https://github.com/user-attachments/assets/b8eea1ee-346a-4692-bbd5-71f9e653db82" />
 > <img width="496" height="395" alt="截屏2026-10-27 11 26 20" src="https://github.com/user-attachments/assets/888eb2fb-ba75-4595-b95a-ee67f7e83270" />
 > <img width="598" height="508" alt="截屏2026-10-27 11 26 41" src="https://github.com/user-attachments/assets/1eb1b9cb-c46d-46bc-978d-723feb17ad81" />
@@ -104,6 +105,7 @@ Incidence rate: 95% confidence interval
 > <img width="625" height="488" alt="截屏2026-10-27 11 34 48" src="https://github.com/user-attachments/assets/b9fd7d65-10fa-413e-94e8-2775d7b94995" />
 
 *Exercise*
+
 <img width="631" height="668" alt="截屏2026-10-27 11 33 04" src="https://github.com/user-attachments/assets/2d0e3ad7-949d-40d6-95af-65446413cffa" />
 <img width="631" height="665" alt="截屏2026-10-27 11 33 39" src="https://github.com/user-attachments/assets/ab5066db-e165-45cc-8daa-3f040aa9a29a" />
 <img width="744" height="585" alt="截屏2026-10-27 11 34 22" src="https://github.com/user-attachments/assets/508c665b-e46d-4e02-9860-595efa8d61c4" />
