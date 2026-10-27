@@ -1,6 +1,6 @@
-### My R Programming Notes
+### My Notes
 
-## Contents
+## R Programming Contents
 
 - [Lab 01 — Variables and Global Environment](notes/lab01-basics.md)
 - [Lab 02 — If/Else and Loops](notes/lab02-if-loops.md)
@@ -10,3 +10,7 @@
 - [Lab 06 — Heterogenous Data Container](notes/lab06-heterogenous-data-container.md)
 - [Lab 07 — Work With Files and Data](notes/lab07-work-with-files-and-data.md)
 - [Lab 08 — Visualisation](notes/lab08-visualisation.md)
+
+### Medical Stats Contents
+- [Lec 01 — Population and Sample](notes/ms01-population-and-sample.md)
+- 
