@@ -12,6 +12,7 @@ Remember:
 
 ## Errors
 <img width="556" height="356" alt="截屏2026-10-27 09 41 09" src="https://github.com/user-attachments/assets/e7c0586e-c8f6-45f3-8fd6-9734731d63c4" />
+
 **Type I error (significance level of a test)**
 • We reject the null hypothesis although the null hypothesis is true
 • The probability of type I error is the significance level, written as α
@@ -29,11 +30,13 @@ Remember:
 
 ## Comparison of two proportions -> Chi squared
 <img width="642" height="357" alt="截屏2026-10-27 09 51 30" src="https://github.com/user-attachments/assets/d474b886-e44d-4062-9417-392fb92ea9ca" />
+
 红线：critical value告诉我们rejection region在哪
 <img width="321" height="210" alt="截屏2026-10-27 09 59 24" src="https://github.com/user-attachments/assets/e6505c93-98d8-4a81-8c66-6ffde1e86cb6" />
 
 ## Comparison of two means -> student t test
 <img width="626" height="285" alt="截屏2026-10-27 10 02 03" src="https://github.com/user-attachments/assets/51d982d8-e902-44aa-8461-15a5fbf89fbc" />
+
 • Can be used for small samples and large samples
 • Assumes that population distributions are normal and the population standard deviation is the same in the two groups
 • May not be appropriate to use when the sample standard deviations (s1, s2) are very different
