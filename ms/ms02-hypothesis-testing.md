@@ -110,6 +110,24 @@ Incidence rate: 95% confidence interval
 <img width="631" height="665" alt="截屏2026-10-27 11 33 39" src="https://github.com/user-attachments/assets/ab5066db-e165-45cc-8daa-3f040aa9a29a" />
 <img width="744" height="585" alt="截屏2026-10-27 11 34 22" src="https://github.com/user-attachments/assets/508c665b-e46d-4e02-9860-595efa8d61c4" />
 
+## Effect measures
+<img width="659" height="313" alt="截屏2026-10-27 11 56 22" src="https://github.com/user-attachments/assets/60f80e8f-ccb5-4509-a440-efdadd33bf79" />
+### Risk ratio
+<img width="635" height="349" alt="截屏2026-10-27 11 56 49" src="https://github.com/user-attachments/assets/b7fb85d9-0358-4d99-9faf-da385da5b8f4" />
+<img width="582" height="279" alt="截屏2026-10-27 11 57 03" src="https://github.com/user-attachments/assets/d7bfbece-8622-4f4e-b7e1-63a4c54aeb92" />
+<img width="546" height="123" alt="截屏2026-10-27 11 57 17" src="https://github.com/user-attachments/assets/ca9c5c5d-3ebf-49f5-9e1b-f0cc2320dfa1" />
+risk at exposed / risk at unexposed
+= incidence at exposed / incidence at unexposed
+= (84/3000) / (87/5000)
+> [!NOTE]
+> 记住公式a/(a+b), c/(c+d)是分子除以total！和not那一部分没有关系
+### Risk difference
+<img width="442" height="301" alt="截屏2026-10-27 12 00 07" src="https://github.com/user-attachments/assets/a7f4b2f5-36a2-4eec-9832-d095d3e2f42c" />
+<img width="635" height="236" alt="截屏2026-10-27 12 00 22" src="https://github.com/user-attachments/assets/b0929444-e83d-4752-9c39-0b8f76088857" />
+所以上个例子就应该是(84/3000) - (87/5000)
+### Odds ratio
+
+
 
 
 
