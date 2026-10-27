@@ -132,6 +132,17 @@ risk at exposed / risk at unexposed
 所以上个例子就应该是(84/3000) - (87/5000)
 
 ### Odds ratio
+<img width="614" height="274" alt="截屏2026-10-27 13 10 11" src="https://github.com/user-attachments/assets/8ee12c8d-10a4-4adf-816b-e5ca17c35df6" />
+> [!NOTE]
+> 和risk ratio的区别就是分母是no death那一列，不是total了
+> <img width="492" height="174" alt="截屏2026-10-27 13 21 04" src="https://github.com/user-attachments/assets/1d45cc47-46e4-4489-8fa7-a9e11fe6dd9a" />
+> <img width="781" height="587" alt="截屏2026-10-27 13 37 06" src="https://github.com/user-attachments/assets/fccf99ef-a854-410b-8876-a6add7517aa1" />
+> <img width="463" height="669" alt="截屏2026-10-27 13 40 29" src="https://github.com/user-attachments/assets/b5eb8ef1-71a3-4e11-8224-edddd6197073" />
+> <img width="461" height="583" alt="截屏2026-10-27 13 41 06" src="https://github.com/user-attachments/assets/21ca3ec7-707f-4a0b-8749-ba83b3105b52" />
+
+
+
+
 
 
 
