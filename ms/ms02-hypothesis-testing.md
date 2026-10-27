@@ -154,7 +154,7 @@ risk at exposed / risk at unexposed
 > <img width="662" height="573" alt="截屏2026-10-27 14 05 09" src="https://github.com/user-attachments/assets/377dd7a8-97d9-4102-9855-de958975e0e6" />
 
 ### Odds ratio
-<img width="614" height="274" alt="截屏2026-10-27 13 10 11" src="https://github.com/user-attachments/assets/8ee12c8d-10a4-4adf-816b-e5ca17c35df6" />
+<img width="614" height="338" alt="截屏2026-10-27 14 38 14" src="https://github.com/user-attachments/assets/308f34e6-b577-4545-986d-32668fb29486" />
 
 > [!NOTE]
 > 和risk ratio的区别就是分母是no death那一列，不是total了
