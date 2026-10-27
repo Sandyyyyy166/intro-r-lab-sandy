@@ -70,6 +70,7 @@ Probability of an event occurring divided by the probability that the event does
 incidence) or a rate
 <img width="713" height="353" alt="截屏2026-10-27 10 56 48" src="https://github.com/user-attachments/assets/4a93c6fe-6584-43c8-9436-dce622e4c713" />
 <img width="741" height="358" alt="截屏2026-10-27 11 02 44" src="https://github.com/user-attachments/assets/a5176a4b-b0c4-4fa4-bfd4-fd3d748adead" />
+
 > [!TIP]
 > 为什么Incidence 可以是 Risk，也可以是 Rate
 > 
@@ -106,6 +107,10 @@ Incidence rate: 95% confidence interval
 > [!IMPORTANT]
 > <img width="625" height="488" alt="截屏2026-10-27 11 34 48" src="https://github.com/user-attachments/assets/b9fd7d65-10fa-413e-94e8-2775d7b94995" />
 > <img width="645" height="270" alt="截屏2026-10-27 14 09 26" src="https://github.com/user-attachments/assets/0ffa03c6-759a-410f-9468-18d620855670" />
+> <img width="635" height="339" alt="截屏2026-10-27 14 22 56" src="https://github.com/user-attachments/assets/ade7eea4-b7ff-4ffb-b42a-bf0dbf8e48f2" />
+> **公示表**
+> <img width="679" height="443" alt="截屏2026-10-27 14 33 31" src="https://github.com/user-attachments/assets/0f26ffc9-6393-4169-aba5-e17def5c12e4" />
+> <img width="577" height="615" alt="截屏2026-10-27 14 33 53" src="https://github.com/user-attachments/assets/a2db39bf-4b2a-4a81-93fa-9d11fe376a08" />
 
 *Exercise*
 
@@ -134,6 +139,7 @@ risk at exposed / risk at unexposed
 所以上个例子就应该是(84/3000) - (87/5000)
 
 > [!IMPORTANT]
+> 第一个例题
 > Prevalence：在某个时间点，有多少活着的人正在患病？
 > Cumulative incidence：在一段时间内，最初未患病的人中有多少新发病例？
 > Person-time：每个人贡献了多少尚未患病、仍处于风险中的时间？
@@ -157,6 +163,20 @@ risk at exposed / risk at unexposed
 > <img width="781" height="587" alt="截屏2026-10-27 13 37 06" src="https://github.com/user-attachments/assets/fccf99ef-a854-410b-8876-a6add7517aa1" />
 > <img width="463" height="669" alt="截屏2026-10-27 13 40 29" src="https://github.com/user-attachments/assets/b5eb8ef1-71a3-4e11-8224-edddd6197073" />
 > <img width="461" height="583" alt="截屏2026-10-27 13 41 06" src="https://github.com/user-attachments/assets/21ca3ec7-707f-4a0b-8749-ba83b3105b52" />
+
+> [!IMPORTANT]
+> 第二个例题
+> <img width="617" height="357" alt="截屏2026-10-27 14 26 48" src="https://github.com/user-attachments/assets/b940af49-c02d-4cbc-9fa6-e7f214e15cb8" />
+> <img width="736" height="603" alt="截屏2026-10-27 14 27 24" src="https://github.com/user-attachments/assets/1d94a578-e773-4b7a-8c52-fa33a69e1f68" />
+> <img width="789" height="515" alt="截屏2026-10-27 14 27 43" src="https://github.com/user-attachments/assets/5c24c84d-e931-4b1b-85ba-16697733a14e" />
+> <img width="488" height="511" alt="截屏2026-10-27 14 28 18" src="https://github.com/user-attachments/assets/19523f59-2155-465e-8a4c-df01275eca1c" />
+> <img width="486" height="669" alt="截屏2026-10-27 14 28 55" src="https://github.com/user-attachments/assets/9d31aafa-c092-458c-845d-c9abec63ad2e" />
+> <img width="522" height="670" alt="截屏2026-10-27 14 31 32" src="https://github.com/user-attachments/assets/b8012bbb-f65a-4292-a8cc-2c70e9a490f4" />
+> <img width="440" height="634" alt="截屏2026-10-27 14 32 07" src="https://github.com/user-attachments/assets/4939c50d-370a-4439-960a-9ce0b55d0743" />
+> <img width="482" height="470" alt="截屏2026-10-27 14 32 27" src="https://github.com/user-attachments/assets/51497897-09df-45fd-bcf0-00c9279b1ec0" />
+
+
+
 
 
 
