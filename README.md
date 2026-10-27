@@ -12,5 +12,6 @@
 - [Lab 08 — Visualisation](notes/lab08-visualisation.md)
 
 ### Medical Stats Contents
-- [Lec 01 — Population and Sample](notes/ms01-population-and-sample.md)
+- [Lec 01 — Population and Sample](ms/ms01-population-and-sample.md)
+- [Lec 02 — Hypothesis Testing](ms/ms02-hypothesis-testing.md)
 - 
