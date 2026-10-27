@@ -58,8 +58,10 @@ Remember:
 
 ## Measure outcome
 <img width="792" height="358" alt="截屏2026-10-27 10 58 23" src="https://github.com/user-attachments/assets/84b0630c-04f3-4407-95da-e69efcf30d63" />
+
 ### Odds: 
 Probability of an event occurring divided by the probability that the event does not happen
+
 ### Risk & cumulative incidence：
 **Incidence**
 — Incidence is a measure of occurrence of events (i.e., state transition from a non-diseased to a diseased state)
@@ -112,6 +114,7 @@ Incidence rate: 95% confidence interval
 
 ## Effect measures
 <img width="659" height="313" alt="截屏2026-10-27 11 56 22" src="https://github.com/user-attachments/assets/60f80e8f-ccb5-4509-a440-efdadd33bf79" />
+
 ### Risk ratio
 <img width="635" height="349" alt="截屏2026-10-27 11 56 49" src="https://github.com/user-attachments/assets/b7fb85d9-0358-4d99-9faf-da385da5b8f4" />
 <img width="582" height="279" alt="截屏2026-10-27 11 57 03" src="https://github.com/user-attachments/assets/d7bfbece-8622-4f4e-b7e1-63a4c54aeb92" />
@@ -119,12 +122,15 @@ Incidence rate: 95% confidence interval
 risk at exposed / risk at unexposed
 = incidence at exposed / incidence at unexposed
 = (84/3000) / (87/5000)
+
 > [!NOTE]
 > 记住公式a/(a+b), c/(c+d)是分子除以total！和not那一部分没有关系
+
 ### Risk difference
 <img width="442" height="301" alt="截屏2026-10-27 12 00 07" src="https://github.com/user-attachments/assets/a7f4b2f5-36a2-4eec-9832-d095d3e2f42c" />
 <img width="635" height="236" alt="截屏2026-10-27 12 00 22" src="https://github.com/user-attachments/assets/b0929444-e83d-4752-9c39-0b8f76088857" />
 所以上个例子就应该是(84/3000) - (87/5000)
+
 ### Odds ratio
 
 
