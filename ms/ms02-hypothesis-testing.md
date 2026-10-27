@@ -181,6 +181,8 @@ risk at exposed / risk at unexposed
 > <img width="440" height="634" alt="截屏2026-10-27 14 32 07" src="https://github.com/user-attachments/assets/4939c50d-370a-4439-960a-9ce0b55d0743" />
 > <img width="482" height="470" alt="截屏2026-10-27 14 32 27" src="https://github.com/user-attachments/assets/51497897-09df-45fd-bcf0-00c9279b1ec0" />
 
+**Practical解析**
+<img width="637" height="645" alt="截屏2026-10-27 15 31 25" src="https://github.com/user-attachments/assets/292ffb58-d383-4c3e-bf64-5f6ce6f328b5" />
 
 
 
