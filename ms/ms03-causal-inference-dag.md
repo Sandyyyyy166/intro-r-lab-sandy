@@ -25,9 +25,9 @@ confounding causes bias
 <img width="765" height="333" alt="截屏2026-10-28 09 45 11" src="https://github.com/user-attachments/assets/4b39a072-23a1-4799-955c-1cd909ac6743" />
 <img width="707" height="357" alt="截屏2026-10-28 09 46 19" src="https://github.com/user-attachments/assets/4de426f2-1c96-4b52-a1f7-d44a17fc8a38" />
 
-Directed：箭头有方向，表示假设的因果方向。
-Acyclic：不能沿着箭头绕一圈回到原来的变量。
-Graph：由节点（nodes）和箭头（edges）组成。
+- Directed：箭头有方向，表示假设的因果方向。
+- Acyclic：不能沿着箭头绕一圈回到原来的变量。
+- Graph：由节点（nodes）和箭头（edges）组成。
 
 ### 概念合集
 - Backdoor path：一条从 Exposure 到 Outcome 的非因果路径。
