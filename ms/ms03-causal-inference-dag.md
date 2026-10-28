@@ -33,6 +33,9 @@ Graph：由节点（nodes）和箭头（edges）组成。
 - Backdoor path：一条从 Exposure 到 Outcome 的非因果路径。
 - Confounder：可能使 Exposure–Outcome 关系产生混杂的共同原因。
 - Collider：路径上两个箭头同时指向的节点。
+- Causal Path（因果路径）：箭头是不是一直从 A 指向 Y？可以是 A -> B -> C -> Y。但是A <- C <- Y就不是causal因为需要从A就是exposure出发。
+- Open Path（开放路径）：这条路径有没有被 d-separation rules 阻断？这条路径可以传递统计关联association。它不代表因果关系，只代表这条路径没有被阻断。例如，在给定的 conditioning 条件下，C 同时影响 A 和 Y，DAG 允许 A 和 Y 可以通过 C 产生统计关联。
+- Blocked path：这条路径在给定调整条件下被阻断，不会通过这条路径传递关联。
   
 <img width="603" height="383" alt="截屏2026-10-28 09 50 23" src="https://github.com/user-attachments/assets/caafb580-9101-425e-8b59-9e601be23655" />
 <img width="633" height="339" alt="截屏2026-10-28 09 50 45" src="https://github.com/user-attachments/assets/a5159017-b54f-49f6-b0e8-f7326056a9cd" />
@@ -43,29 +46,30 @@ Graph：由节点（nodes）和箭头（edges）组成。
 <img width="587" height="296" alt="截屏2026-10-28 10 16 13" src="https://github.com/user-attachments/assets/6d5797d4-854d-4a62-9559-549a35decb55" />
 
 
-**Open path**：这条路径可以传递统计关联。
-**Blocked path**：这条路径在给定调整条件下被阻断，不会通过这条路径传递关联。
-我们的目标是block backdoor paths to eliminate bias。
-Conditioning on C = 在分析中控制 C，例如按 C 分层，或者在 regression 中调整 C。Conditioning 有时候会关闭 path，有时候反而会打开 path。所以要考虑四个 rules。
+- **Open path**：这条路径可以传递统计关联。
+- **Blocked path**：这条路径在给定调整条件下被阻断，不会通过这条路径传递关联。
+
+- 我们的目标是block backdoor paths to eliminate bias。
+- Conditioning on C = 在分析中控制 C，例如按 C 分层，或者在 regression 中调整 C。
+- Conditioning 有时候会关闭 path，有时候反而会打开 path。所以要考虑四个 rules。
 
 <img width="578" height="143" alt="截屏2026-10-28 09 58 12" src="https://github.com/user-attachments/assets/25890d5e-d98d-404f-9b6b-f6736b22546f" />
 
-
-**rule 1 没有控制任何变量时，路径上出现 Collider，就会阻断这条路径。**
-在没有 conditioning 的情况下，A -> C <- Y 这条路径默认是 blocked。因为 A 和 Y 都影响 C，并不意味着 A 和 Y 本身就有关联。
+- **rule 1 没有控制任何变量时，路径上出现 Collider，就会阻断这条路径。**
+- 在没有 conditioning 的情况下，A -> C <- Y 这条路径默认是 blocked。因为 A 和 Y 都影响 C，并不意味着 A 和 Y 本身就有关联。
 
 <img width="663" height="298" alt="截屏2026-10-28 09 54 14" src="https://github.com/user-attachments/assets/70922432-e568-4e86-bfe6-77e7e1d58ae2" />
 
-**rule 2 控制路径上的 Non-collider，就会阻断这条路径。**
-这里 Non-collider 指的是路径上没有两个箭头同时指向它的变量。
+- **rule 2 控制路径上的 Non-collider，就会阻断这条路径。**
+- 这里 Non-collider 指的是路径上没有两个箭头同时指向它的变量。
 A <- L -> Y L同时影响 A 和 Y；
 如果不控制 L，这条路径是 open 的，可能产生 confounding bias；
 但如果我们控制 L 这条路径就会被 blocked。
 
 <img width="637" height="246" alt="截屏2026-10-28 09 56 49" src="https://github.com/user-attachments/assets/e1016373-4273-458e-bcf1-75ac24ea0d95" />
 
-**rule 3 控制 Collider，会打开原本被阻断的路径。**
-A -> C <- Y 刚刚 Rule I 告诉我们，这条路径默认 blocked；
+- **rule 3 控制 Collider，会打开原本被阻断的路径。**
+- A -> C <- Y 刚刚 Rule I 告诉我们，这条路径默认 blocked；
 但如果我们控制 C 这条路径反而变成 Open：
 举个例子：
 假设 A 是学术能力，Y 是体育能力，而 C 是被某所大学录取。
@@ -78,10 +82,13 @@ A -> C <- Y 刚刚 Rule I 告诉我们，这条路径默认 blocked；
 这个关联是由于**筛选已录取学生（conditioning on collider）**产生的。
 它叫：
 Collider Bias（碰撞偏倚）。
+变成open就是A和Y产生关联了
 <img width="632" height="265" alt="截屏2026-10-28 09 57 14" src="https://github.com/user-attachments/assets/71e7d584-3ec5-41f4-82c5-aaee603e6ea7" />
+<img width="678" height="622" alt="截屏2026-10-28 10 31 07" src="https://github.com/user-attachments/assets/243f0489-a1b4-46b7-a178-076c41134cd5" />
+<img width="683" height="517" alt="截屏2026-10-28 10 32 08" src="https://github.com/user-attachments/assets/51cfa0b4-5e4e-4b8f-9787-db0cc69bf7b5" />
 
-**rule 4 控制 Collider 的 Descendant，也会打开路径。**
-控制 Collider 的后代也可能引入 collider bias。
+- **rule 4 控制 Collider 的 Descendant，也会打开路径。**
+- 控制 Collider 的后代也可能引入 collider bias。
 
 <img width="602" height="316" alt="截屏2026-10-28 10 01 35" src="https://github.com/user-attachments/assets/0c6e6f22-1432-4690-9f3b-0c653f63ebd8" />
 
