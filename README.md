@@ -14,4 +14,4 @@
 ### Medical Stats Contents
 - [Lec 01 — Population and Sample](ms/ms01-population-and-sample.md)
 - [Lec 02 — Hypothesis Testing](ms/ms02-hypothesis-testing.md)
-- 
+- [Lec 03 — Causal Inference and DAG](ms/ms03-causal-inference-dag.md)
