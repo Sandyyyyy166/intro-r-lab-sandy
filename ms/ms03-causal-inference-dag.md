@@ -34,7 +34,7 @@ confounding causes bias
 - Confounder：可能使 Exposure–Outcome 关系产生混杂的共同原因。
 - Collider：路径上两个箭头同时指向的节点。
 - Causal Path（因果路径）：箭头是不是一直从 A 指向 Y？可以是 A -> B -> C -> Y。但是A <- C <- Y就不是causal因为需要从A就是exposure出发。
-- Open Path（开放路径）：这条路径有没有被 d-separation rules 阻断？这条路径可以传递统计关联association。它不代表因果关系，只代表这条路径没有被阻断。例如，在给定的 conditioning 条件下，C 同时影响 A 和 Y，DAG 允许 A 和 Y 可以通过 C 产生统计关联。
+- Open Path（开放路径）：这条路径有没有被 d-separation rules 阻断？这条路径可以传递统计关联association。它不代表因果关系，只代表这条路径没有被阻断。例如，在给定的 conditioning 条件下，C 同时影响 A 和 Y，DAG 允许 A 和 Y 可以通过 C 产生统计关联。**Open 不等于两个变量实际上一定相关，而是这条路径允许产生统计关联。**
 - Blocked path：这条路径在给定调整条件下被阻断，不会通过这条路径传递关联。
   
 <img width="603" height="383" alt="截屏2026-10-28 09 50 23" src="https://github.com/user-attachments/assets/caafb580-9101-425e-8b59-9e601be23655" />
@@ -65,6 +65,11 @@ confounding causes bias
 A <- L -> Y L同时影响 A 和 Y；
 如果不控制 L，这条路径是 open 的，可能产生 confounding bias；
 但如果我们控制 L 这条路径就会被 blocked。
+- 如果有Mediator：
+- A -> R -> Y：R 是mediator中介变量。本来是open。
+- 控制 R 后，我们比较的是 R 相同的人。在这条路径上，A 通过改变 R 而影响 Y 的那部分关联被阻断了。
+- 想象我们只比较血压完全相同的患者。
+- 那么在这个比较中，治疗通过改变血压进而影响中风的那部分效应，就不能再通过血压差异表现出来。
 
 <img width="637" height="246" alt="截屏2026-10-28 09 56 49" src="https://github.com/user-attachments/assets/e1016373-4273-458e-bcf1-75ac24ea0d95" />
 
@@ -82,7 +87,11 @@ A <- L -> Y L同时影响 A 和 Y；
 这个关联是由于**筛选已录取学生（conditioning on collider）**产生的。
 它叫：
 Collider Bias（碰撞偏倚）。
-变成open就是A和Y产生关联了
+变成open就是A和Y产生关联了。
+> [!TIP]
+> Collider Bias - 当两个独立的原因都能导致同一个结果时，如果你只研究已经发生这个结果的人，就可能让这两个原因看起来相关。
+> 把 Open 理解为：在给定的 conditioning 条件下，DAG 允许 A 和 Y 通过这条路径产生统计关联。
+
 <img width="632" height="265" alt="截屏2026-10-28 09 57 14" src="https://github.com/user-attachments/assets/71e7d584-3ec5-41f4-82c5-aaee603e6ea7" />
 <img width="678" height="622" alt="截屏2026-10-28 10 31 07" src="https://github.com/user-attachments/assets/243f0489-a1b4-46b7-a178-076c41134cd5" />
 <img width="683" height="517" alt="截屏2026-10-28 10 32 08" src="https://github.com/user-attachments/assets/51cfa0b4-5e4e-4b8f-9787-db0cc69bf7b5" />
@@ -91,6 +100,8 @@ Collider Bias（碰撞偏倚）。
 - 控制 Collider 的后代也可能引入 collider bias。
 
 <img width="602" height="316" alt="截屏2026-10-28 10 01 35" src="https://github.com/user-attachments/assets/0c6e6f22-1432-4690-9f3b-0c653f63ebd8" />
+
+
 
 
 
