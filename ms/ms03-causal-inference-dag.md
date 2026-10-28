@@ -45,7 +45,6 @@ confounding causes bias
 <img width="801" height="352" alt="截屏2026-10-28 09 49 31" src="https://github.com/user-attachments/assets/79b8cc0b-4b3d-41e2-92c8-cec48d3b05e1" />
 <img width="587" height="296" alt="截屏2026-10-28 10 16 13" src="https://github.com/user-attachments/assets/6d5797d4-854d-4a62-9559-549a35decb55" />
 
-
 - **Open path**：这条路径可以传递统计关联。
 - **Blocked path**：这条路径在给定调整条件下被阻断，不会通过这条路径传递关联。
 
@@ -100,6 +99,9 @@ Collider Bias（碰撞偏倚）。
 - 控制 Collider 的后代也可能引入 collider bias。
 
 <img width="602" height="316" alt="截屏2026-10-28 10 01 35" src="https://github.com/user-attachments/assets/0c6e6f22-1432-4690-9f3b-0c653f63ebd8" />
+
+###总结
+<img width="423" height="470" alt="截屏2026-10-28 11 58 15" src="https://github.com/user-attachments/assets/ca1db84f-69c2-4ff3-b38a-261e1813f676" />
 
 
 
