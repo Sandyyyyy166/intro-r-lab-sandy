@@ -120,7 +120,24 @@ exp(coef(model))
 <img width="618" height="279" alt="截屏2026-10-29 11 13 59" src="https://github.com/user-attachments/assets/5ab85bd1-5ca8-4dd7-8cf8-5061eef00666" />
 <img width="672" height="351" alt="截屏2026-10-29 11 14 50" src="https://github.com/user-attachments/assets/f31eb695-87ce-4214-82dc-cd97779b634c" />
 
+## Likelihood ratio test - 比较两个模型，看更复杂的模型是否比简单模型显著更好地解释数据
+<img width="432" height="647" alt="截屏2026-10-29 13 10 46" src="https://github.com/user-attachments/assets/407b10e9-33ee-4699-a181-643e0cfa3dde" />
+<img width="467" height="462" alt="截屏2026-10-29 13 12 39" src="https://github.com/user-attachments/assets/54551b84-9810-44fc-8d33-0e96e1c2c166" />
+```r
+# Reduced model
+model0 <- glm(
+  death ~ age,
+  family = binomial,
+  data = study_data
+)
 
+# Full model
+model1 <- glm(
+  death ~ age + sex,
+  family = binomial,
+  data = study_data
+)
 
-
-
+# Likelihood Ratio Test
+anova(model0, model1, test = "Chisq")
+```
