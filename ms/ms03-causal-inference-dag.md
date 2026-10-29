@@ -18,6 +18,8 @@ Correlation ≠ Causation
 这就是 causal inference 的核心困难：我们无法同时观察同一个人的两个潜在结果。
 Causal Inference 要研究的是：我们怎样才能从观察到的关联中识别真正的因果效应？
 
+- Model fit 和 causal inference 是两回事。
+
 <img width="447" height="306" alt="截屏2026-10-29 13 00 05" src="https://github.com/user-attachments/assets/8d91522f-8f90-42e7-9be4-84e428e46f47" />
 
 <img width="679" height="648" alt="截屏2026-10-29 11 57 36" src="https://github.com/user-attachments/assets/8e19cce9-ee2b-4b58-a7ab-fddade720064" />
