@@ -113,5 +113,14 @@ summary(model)
 exp(coef(model))
 ```
 
+## MLE
+<img width="574" height="326" alt="截屏2026-10-29 11 12 58" src="https://github.com/user-attachments/assets/15f0595b-b5b3-4f00-8980-f6a140709432" />
+<img width="662" height="316" alt="截屏2026-10-29 11 13 24" src="https://github.com/user-attachments/assets/2e9be120-a9b0-4470-8793-8aa35084b2cb" />
+<img width="662" height="253" alt="截屏2026-10-29 11 13 43" src="https://github.com/user-attachments/assets/20baf56c-ccf3-477c-b49f-67146a7f232f" />
+<img width="618" height="279" alt="截屏2026-10-29 11 13 59" src="https://github.com/user-attachments/assets/5ab85bd1-5ca8-4dd7-8cf8-5061eef00666" />
+<img width="672" height="351" alt="截屏2026-10-29 11 14 50" src="https://github.com/user-attachments/assets/f31eb695-87ce-4214-82dc-cd97779b634c" />
+
+
+
 
 
