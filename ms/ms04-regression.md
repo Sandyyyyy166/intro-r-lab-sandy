@@ -49,6 +49,7 @@ xponential Family 不是某一个具体分布，而是一大类可以写成相�
 ## Link function
 <img width="607" height="618" alt="截屏2026-10-29 10 31 14" src="https://github.com/user-attachments/assets/97de4117-0e35-465d-a79c-24f920f60178" />
 <img width="415" height="603" alt="截屏2026-10-29 10 35 09" src="https://github.com/user-attachments/assets/78c83432-aae7-4b02-9b40-f074bc16314e" />
+
 ```r
 glm(BP ~ age,
     family = gaussian(link = "identity"),
@@ -56,6 +57,7 @@ glm(BP ~ age,
 ```
 <img width="449" height="628" alt="截屏2026-10-29 10 35 34" src="https://github.com/user-attachments/assets/79c30026-88b6-49e3-830f-9c2304223248" />
 <img width="527" height="387" alt="截屏2026-10-29 10 36 03" src="https://github.com/user-attachments/assets/8c3826b1-fba5-4780-8ba5-129473a5aaf5" />
+
 ```r
 model <- glm(
   death ~ treatment + age,
@@ -70,6 +72,7 @@ exp(coef(model))
 ```
 <img width="477" height="634" alt="截屏2026-10-29 10 38 24" src="https://github.com/user-attachments/assets/c876585b-66ee-437a-ae79-5919b669595d" />
 <img width="402" height="96" alt="截屏2026-10-29 10 38 40" src="https://github.com/user-attachments/assets/9d624883-1905-4561-8579-da056d151d93" />
+
 ```r
 model <- glm(
   n_hosp ~ treatment + offset(log(person_time)),
