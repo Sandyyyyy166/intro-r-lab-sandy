@@ -123,6 +123,7 @@ exp(coef(model))
 ## Likelihood ratio test - 比较两个模型，看更复杂的模型是否比简单模型显著更好地解释数据
 <img width="432" height="647" alt="截屏2026-10-29 13 10 46" src="https://github.com/user-attachments/assets/407b10e9-33ee-4699-a181-643e0cfa3dde" />
 <img width="467" height="462" alt="截屏2026-10-29 13 12 39" src="https://github.com/user-attachments/assets/54551b84-9810-44fc-8d33-0e96e1c2c166" />
+
 ```r
 # Reduced model
 model0 <- glm(
