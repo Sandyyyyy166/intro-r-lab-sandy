@@ -48,6 +48,12 @@ xponential Family 不是某一个具体分布，而是一大类可以写成相�
 
 ## Link function
 <img width="607" height="618" alt="截屏2026-10-29 10 31 14" src="https://github.com/user-attachments/assets/97de4117-0e35-465d-a79c-24f920f60178" />
+
+<img width="616" height="347" alt="截屏2026-10-29 10 39 15" src="https://github.com/user-attachments/assets/5d84476a-6de7-4809-b444-4a912c7d898b" />
+<img width="695" height="327" alt="截屏2026-10-29 10 41 49" src="https://github.com/user-attachments/assets/0855d0c6-4f0e-4a8e-afbb-5db0e0b6e95a" />
+<img width="634" height="410" alt="截屏2026-10-29 10 40 07" src="https://github.com/user-attachments/assets/38c5c8fb-bb6e-4afd-ad51-309bc9d1367c" />
+
+## Normal regression
 <img width="415" height="603" alt="截屏2026-10-29 10 35 09" src="https://github.com/user-attachments/assets/78c83432-aae7-4b02-9b40-f074bc16314e" />
 
 ```r
@@ -55,6 +61,10 @@ glm(BP ~ age,
     family = gaussian(link = "identity"),
     data = mydata)
 ```
+
+## Logistic regression
+<img width="712" height="153" alt="截屏2026-10-29 10 54 15" src="https://github.com/user-attachments/assets/cf5949e4-00c6-4eb1-834e-c0eff191badf" />
+<img width="669" height="210" alt="截屏2026-10-29 10 54 36" src="https://github.com/user-attachments/assets/aa94f9cb-a4f2-408a-8b4a-e4e135d6391f" />
 <img width="449" height="628" alt="截屏2026-10-29 10 35 34" src="https://github.com/user-attachments/assets/79c30026-88b6-49e3-830f-9c2304223248" />
 <img width="527" height="387" alt="截屏2026-10-29 10 36 03" src="https://github.com/user-attachments/assets/8c3826b1-fba5-4780-8ba5-129473a5aaf5" />
 
@@ -70,6 +80,8 @@ summary(model)
 # Odds ratios
 exp(coef(model))
 ```
+
+## Poisson regression
 <img width="477" height="634" alt="截屏2026-10-29 10 38 24" src="https://github.com/user-attachments/assets/c876585b-66ee-437a-ae79-5919b669595d" />
 <img width="402" height="96" alt="截屏2026-10-29 10 38 40" src="https://github.com/user-attachments/assets/9d624883-1905-4561-8579-da056d151d93" />
 
@@ -85,11 +97,6 @@ summary(model)
 # Incidence rate ratios
 exp(coef(model))
 ```
-
-<img width="616" height="347" alt="截屏2026-10-29 10 39 15" src="https://github.com/user-attachments/assets/5d84476a-6de7-4809-b444-4a912c7d898b" />
-<img width="695" height="327" alt="截屏2026-10-29 10 41 49" src="https://github.com/user-attachments/assets/0855d0c6-4f0e-4a8e-afbb-5db0e0b6e95a" />
-<img width="634" height="410" alt="截屏2026-10-29 10 40 07" src="https://github.com/user-attachments/assets/38c5c8fb-bb6e-4afd-ad51-309bc9d1367c" />
-
 
 
 
