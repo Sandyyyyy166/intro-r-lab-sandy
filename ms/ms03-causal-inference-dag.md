@@ -4,7 +4,7 @@ Correlation ≠ Causation
 两个变量相关，不代表其中一个导致另一个。
 比如课件展示了人造黄油消费量和离婚率的相关性，但这并不能证明吃人造黄油导致离婚。
 
-三种 Research Questions
+- 三种 Research Questions
 - Descriptive：发生了什么？
 - Predictive：能不能预测什么会发生？
 - Causal：如果我们改变 X，Y 会不会因此改变？
@@ -18,13 +18,23 @@ Correlation ≠ Causation
 这就是 causal inference 的核心困难：我们无法同时观察同一个人的两个潜在结果。
 Causal Inference 要研究的是：我们怎样才能从观察到的关联中识别真正的因果效应？
 
+<img width="447" height="306" alt="截屏2026-10-29 13 00 05" src="https://github.com/user-attachments/assets/8d91522f-8f90-42e7-9be4-84e428e46f47" />
+
 <img width="679" height="648" alt="截屏2026-10-29 11 57 36" src="https://github.com/user-attachments/assets/8e19cce9-ee2b-4b58-a7ab-fddade720064" />
+
+## Research questions
+<img width="668" height="621" alt="截屏2026-10-29 12 39 31" src="https://github.com/user-attachments/assets/d2e308b6-c53f-421d-be57-c8ce2f53ef2d" />
+<img width="456" height="303" alt="截屏2026-10-29 12 39 45" src="https://github.com/user-attachments/assets/49de5508-08a4-489a-864f-294e7d178f07" />
+<img width="660" height="625" alt="截屏2026-10-29 12 59 49" src="https://github.com/user-attachments/assets/2f864bff-1541-4b6d-b773-fd8121f9c03e" />
 
 
 ## Confounding
 Common cause of both the exposure and the outcome.
 一个变量同时影响 Exposure（暴露因素）和 Outcome（结局），从而可能干扰我们对两者因果关系的判断。
 confounding causes bias
+
+<img width="693" height="630" alt="截屏2026-10-29 12 59 14" src="https://github.com/user-attachments/assets/cc9fd707-957a-40d1-982f-58270ed56928" />
+
 
 ## DAG
 <img width="765" height="333" alt="截屏2026-10-28 09 45 11" src="https://github.com/user-attachments/assets/4b39a072-23a1-4799-955c-1cd909ac6743" />
