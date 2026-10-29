@@ -1,4 +1,5 @@
 # 03 Causal Inference and DAG
+## Causation
 Correlation ≠ Causation
 两个变量相关，不代表其中一个导致另一个。
 比如课件展示了人造黄油消费量和离婚率的相关性，但这并不能证明吃人造黄油导致离婚。
@@ -15,6 +16,10 @@ Correlation ≠ Causation
 但现实中，同一个人在同一条件下只能接受其中一种治疗，所以无法同时观察两个结果。
 另一个没有实际发生、但我们希望知道的结果，就是 counterfactual outcome。
 这就是 causal inference 的核心困难：我们无法同时观察同一个人的两个潜在结果。
+Causal Inference 要研究的是：我们怎样才能从观察到的关联中识别真正的因果效应？
+
+<img width="679" height="648" alt="截屏2026-10-29 11 57 36" src="https://github.com/user-attachments/assets/8e19cce9-ee2b-4b58-a7ab-fddade720064" />
+
 
 ## Confounding
 Common cause of both the exposure and the outcome.
