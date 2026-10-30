@@ -1,12 +1,11 @@
 #05 Survival Analysis (time-to-event analysis)
 Often called **time-to-event analysis**
- Instead of measuring disease occurrence over time, we now measure time until
-event
- Here, we consider time as a random variable, 𝑇, where 𝑇 ∈ [0, ∞)
- In any time-to-event analysis, we must clearly define:
- The definition of the event
- The time which the event happened for each sample
- The origin time / time zero
+- Instead of measuring disease occurrence over time, we now measure time until event
+- Here, we consider time as a random variable, 𝑇, where 𝑇 ∈ [0, ∞)
+- In any time-to-event analysis, we must clearly define:
+- The definition of the event
+- The time which the event happened for each sample
+- The origin time / time zero
 
 ## Censoring
 Censoring 的核心是：我们没有观察到完整的 event time，但仍然知道一部分关于它的信息。Survival Analysis 能够利用这些不完整但有价值的观察。
@@ -25,12 +24,12 @@ Censoring 的核心是：我们没有观察到完整的 event time，但仍然�
 <img width="488" height="578" alt="截屏2026-10-30 09 23 36" src="https://github.com/user-attachments/assets/92a703c4-7bc0-49db-b617-acf41eb4155b" />
 
 ### 按照informative分类
- Censoring can be described as either Informative or Non-informative
- Informative
+- Censoring can be described as either Informative or Non-informative
+- Informative
 o Probability of being censored is related to the event
 o For example: too unwell to attend follow-up, went on vacation due to recovery
- Non-informative
+- Non-informative
 o Probability of being censored is unrelated to the event
 o For example: planned end of follow-up, accidental deaths
- Most statistical approaches used in time-to-event analysis assume non-informative censoring, also known as the independent censoring assumption
+- Most statistical approaches used in time-to-event analysis assume non-informative censoring, also known as the independent censoring assumption
 
