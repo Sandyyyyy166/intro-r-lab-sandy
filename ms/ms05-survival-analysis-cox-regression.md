@@ -85,6 +85,7 @@ Censoring 的核心是：我们没有观察到完整的 event time，但仍然�
 <img width="479" height="223" alt="截屏2026-10-30 09 57 44" src="https://github.com/user-attachments/assets/9123db3f-e3ee-4fd9-86a6-7e74cadfa016" />
 <img width="758" height="349" alt="截屏2026-10-30 10 00 10" src="https://github.com/user-attachments/assets/2c1b7864-245d-408a-a8b5-13393e57993c" />
 <img width="450" height="381" alt="截屏2026-10-30 10 00 44" src="https://github.com/user-attachments/assets/d4b15a8a-94e2-4d68-926a-1225d5b81be4" />
+<img width="666" height="412" alt="截屏2026-10-30 11 23 28" src="https://github.com/user-attachments/assets/0ead773c-a652-4d73-984e-fd119870a38f" />
 
 ## Immortal time
 在研究的分组规则下，患者必须在某段时间内不发生特定事件，才能被归入某个组。Immortal time bias: 错误地将事件不可能发生的时间归入暴露组
@@ -97,3 +98,34 @@ Censoring 的核心是：我们没有观察到完整的 event time，但仍然�
 - Modelling techniques must account for right censoring
 - Whilst parametric techniques are possible, non-parametric techniques, or semi-parametric techniques are often preferred
 - Kaplan Meier estimators for modelling the survival function – appealing due to simplicity, graphically attractive, ability to account for varying survival, but cannot control for covariates
+
+# Cox Regression Model
+Survival Analysis 不只研究是否复发，还关心什么时候复发。两种建模思路：
+1. Regression on event time：直接研究事件时间，代表方法是 Accelerated Failure Time Model（AFT）。
+2. Regression on hazard function：研究瞬时事件发生率，代表方法是 Cox Model。
+
+## Accelerated Failure Time Model（AFT）: 某种治疗能让事件发生时间延长多少倍？
+<img width="437" height="298" alt="截屏2026-10-30 11 09 07" src="https://github.com/user-attachments/assets/f7df958d-910e-485b-9522-0647207b077e" />
+<img width="442" height="446" alt="截屏2026-10-30 11 11 33" src="https://github.com/user-attachments/assets/cc481bb5-4263-46a7-aedd-cf1c2be9c07d" />
+
+## 为什么需要cox
+<img width="840" height="394" alt="截屏2026-10-30 11 12 01" src="https://github.com/user-attachments/assets/80552bec-d546-442e-b0d7-1106b563d302" />
+
+- Hazard Function 的具体形状通常很难估计。
+- Hazard estimates 可能不稳定。
+- 我们经常不知道真实 Hazard 随时间变化的规律。
+例如，癌症复发风险可能：
+- 治疗后初期较高。
+- 中期逐渐下降。
+- 后期再次上升。
+我们不一定知道它应该服从哪种分布。
+Cox Model 的优势是：不需要预先指定 Baseline Hazard 的具体函数形状。
+这就是它被称为 Semi-parametric Model（半参数模型） 的重要原因。
+
+<img width="615" height="352" alt="截屏2026-10-30 11 15 01" src="https://github.com/user-attachments/assets/965fd0a3-ddad-48b3-a7c5-9d325ee1157b" />
+<img width="468" height="584" alt="截屏2026-10-30 11 16 29" src="https://github.com/user-attachments/assets/6f9a2d5a-53ee-4dfd-9c2c-5851a297319f" />
+<img width="410" height="639" alt="截屏2026-10-30 11 16 53" src="https://github.com/user-attachments/assets/9c584bba-ada0-4790-9ab4-a4559f38ee52" />
+<img width="481" height="636" alt="截屏2026-10-30 11 17 27" src="https://github.com/user-attachments/assets/700d549b-ab13-40b0-8478-fdcfb0c0ba9a" />
+<img width="673" height="558" alt="截屏2026-10-30 11 17 52" src="https://github.com/user-attachments/assets/ce21b520-51ec-43bc-b74b-682ef4ec4cdb" />
+
+
