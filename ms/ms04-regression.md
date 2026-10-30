@@ -70,7 +70,7 @@ glm(BP ~ age,
     data = mydata)
 ```
 
-## Logistic regression
+## Logistic regression: outcome 是 binary (0/1)，模型预测的是事件发生的概率。
 <img width="712" height="153" alt="截屏2026-10-29 10 54 15" src="https://github.com/user-attachments/assets/cf5949e4-00c6-4eb1-834e-c0eff191badf" />
 <img width="669" height="210" alt="截屏2026-10-29 10 54 36" src="https://github.com/user-attachments/assets/aa94f9cb-a4f2-408a-8b4a-e4e135d6391f" />
 <img width="449" height="628" alt="截屏2026-10-29 10 35 34" src="https://github.com/user-attachments/assets/79c30026-88b6-49e3-830f-9c2304223248" />
