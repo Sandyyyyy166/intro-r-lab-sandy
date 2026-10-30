@@ -16,3 +16,4 @@
 - [Lec 02 — Hypothesis Testing](ms/ms02-hypothesis-testing.md)
 - [Lec 03 — Causal Inference and DAG](ms/ms03-causal-inference-dag.md)
 - [Lec 04 — Regression](ms/ms04-regression.md)
+- [Lec 05 — Survival Analysis and Cox Regression](ms/ms05-survival-analysis-cox-regression.md)
