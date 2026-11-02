@@ -101,10 +101,7 @@ LDH 的值可能在几百左右。
 ### Pearson and Spearman correlation
 - *Pearson correlation*
 - Pearson 衡量两个变量的线性相关程度。
-- 相关系数 \(r\) 的范围是：
-\[
--1\leq r\leq1
-\]
+- 相关系数 r 的范围是：-1 小于等于 r 小于等于 1
 - r 接近 +1：强正线性相关。
 - r 接近 -1：强负线性相关。
 - r 接近 0：线性相关较弱。
@@ -113,3 +110,23 @@ LDH 的值可能在几百左右。
 - 例如：
 随着 X 增加，Y 也持续增加，但它们不是沿着一条直线变化。
 - 这种情况下，Spearman 可能更能反映它们的单调关系。
+- *Correlation Matrix* ???
+- 如果我们有 49 个 biomarkers，总不能每两个变量都单独画一张散点图。
+- 所以可以使用 correlation matrix（相关矩阵）。
+- 矩阵中的每个元素代表一对变量的相关系数。
+- 它的用途是快速发现：
+- 哪些变量呈正相关。
+- 哪些变量呈负相关。
+- 哪些变量之间几乎没有线性相关。
+- 哪些变量可能包含相似的信息。
+
+### PCA
+- 如果PC1解释90%的data，cardinality???
+- U: matrix of eigenvectors
+<img width="775" height="414" alt="截屏2026-11-02 11 02 05" src="https://github.com/user-attachments/assets/9020d8f0-0212-4ca3-b0f6-79ce2e58a55f" />
+
+### Leakage ？？？
+<img width="773" height="383" alt="截屏2026-11-02 11 06 09" src="https://github.com/user-attachments/assets/79b24286-e0b0-4caa-a228-26df3740b356" />
+<img width="681" height="671" alt="截屏2026-11-02 11 08 06" src="https://github.com/user-attachments/assets/9bfcfea4-2913-4534-820a-0ab7f8606112" />
+
+
