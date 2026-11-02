@@ -9,31 +9,32 @@
 
 ### 为什么我们需要这些technicals
 <img width="699" height="348" alt="截屏2026-11-02 09 33 33" src="https://github.com/user-attachments/assets/359cb485-4759-41e5-9ce8-e4a392c7ec13" />
-
-### Phenotype & Computable phenotype
-- Phenotype: 你实际表现出了什么特征(身高、血压、血糖水平、某些疾病表现)
-- Computable phenotype = 把一个医学概念转化成计算机能够执行的判断规则。
-<img width="672" height="151" alt="截屏2026-11-02 09 36 50" src="https://github.com/user-attachments/assets/8f70777c-9d7d-4ff4-8a37-ef77cc7a2473" />
-<img width="1336" height="628" alt="image" src="https://github.com/user-attachments/assets/9acd6e17-721e-4bbd-8eac-8d4d8809ece4" />
-<img width="671" height="244" alt="截屏2026-11-02 09 42 28" src="https://github.com/user-attachments/assets/84d17d82-dabf-4c62-aca7-d0340a601b8e" />
-<img width="655" height="474" alt="截屏2026-11-02 09 43 05" src="https://github.com/user-attachments/assets/dbfb8f93-34aa-4468-be16-1c36994e9f37" />
-<img width="582" height="487" alt="截屏2026-11-02 09 44 00" src="https://github.com/user-attachments/assets/5b038ecc-401b-460b-a8b5-3af97fd12424" />
-<img width="448" height="341" alt="截屏2026-11-02 09 44 30" src="https://github.com/user-attachments/assets/02813de6-48ab-478e-9ab4-e5c1778b168b" />
-<img width="681" height="665" alt="截屏2026-11-02 09 44 55" src="https://github.com/user-attachments/assets/082bcdd1-1179-4c81-b64f-d91b7e2d90a2" />
+> [!NOTE]
+> ### Phenotype & Computable phenotype
+> - Phenotype: 你实际表现出了什么特征(身高、血压、血糖水平、某些疾病表现)
+> - Computable phenotype = 把一个医学概念转化成计算机能够执行的判断规则。
+> <img width="672" height="151" alt="截屏2026-11-02 09 36 50" src="https://github.com/user-attachments/assets/8f70777c-9d7d-4ff4-8a37-ef77cc7a2473" />
+> <img width="1336" height="628" alt="image" src="https://github.com/user-attachments/assets/9acd6e17-721e-4bbd-8eac-8d4d8809ece4" />
+> <img width="671" height="244" alt="截屏2026-11-02 09 42 28" src="https://github.com/user-attachments/assets/84d17d82-dabf-4c62-aca7-d0340a601b8e" />
+> <img width="655" height="474" alt="截屏2026-11-02 09 43 05" src="https://github.com/user-attachments/assets/dbfb8f93-34aa-4468-be16-1c36994e9f37" />
+> <img width="582" height="487" alt="截屏2026-11-02 09 44 00" src="https://github.com/user-attachments/assets/5b038ecc-401b-460b-a8b5-3af97fd12424" />
+> <img width="448" height="341" alt="截屏2026-11-02 09 44 30" src="https://github.com/user-attachments/assets/02813de6-48ab-478e-9ab4-e5c1778b168b" />
+> <img width="681" height="665" alt="截屏2026-11-02 09 44 55" src="https://github.com/user-attachments/assets/082bcdd1-1179-4c81-b64f-d91b7e2d90a2" />
 
 ## 2 Data Structure and Integration 怎样把原始数据整理成分析表？
 <img width="568" height="440" alt="截屏2026-11-02 09 53 07" src="https://github.com/user-attachments/assets/a319fd45-3e2d-4ecc-8b1a-0099f3790216" />
 <img width="653" height="527" alt="截屏2026-11-02 09 53 18" src="https://github.com/user-attachments/assets/7e4a816e-a36f-4d0d-bec0-e14bf4b5e1f4" />
 
-### Unit of analysis
-- Unit of analysis（分析单位）：你想对谁得出结论。决定你的研究结论针对什么对象.
-- Unit of observation（观测单位）：一条观测记录对应什么。
-- 比如我们想预测：
-“这个肝脏最终属于哪个风险等级？”
-那么研究结论针对的是 liver。
-所以：
-Unit of analysis = liver。
-- 数据表的行数不等于独立研究对象的数量。
+> [!NOTE]
+> ### Unit of analysis
+> - Unit of analysis（分析单位）：你想对谁得出结论。决定你的研究结论针对什么对象.
+> - Unit of observation（观测单位）：一条观测记录对应什么。
+> - 比如我们想预测：
+> “这个肝脏最终属于哪个风险等级？”
+> 那么研究结论针对的是 liver。
+> 所以：
+> Unit of analysis = liver。
+> - 数据表的行数不等于独立研究对象的数量。
 
 ### Identifier ???
 - 现在我们知道一份数据里可能有很多重复测量。
@@ -66,33 +67,35 @@ Unit of analysis = liver。
 <img width="769" height="425" alt="截屏2026-11-02 10 34 06" src="https://github.com/user-attachments/assets/87513a59-4ac2-4fea-bf5c-37d28a5c2d68" />
 <img width="672" height="670" alt="截屏2026-11-02 10 33 46" src="https://github.com/user-attachments/assets/d8c1c037-bb83-46fc-9ab3-60fc022ac313" />
 
-### Missing value ???
-<img width="369" height="686" alt="截屏2026-11-02 10 36 38" src="https://github.com/user-attachments/assets/e46563c5-6b4a-4897-8bd5-140f628b7f17" />
-<img width="574" height="218" alt="截屏2026-11-02 10 37 04" src="https://github.com/user-attachments/assets/bc26e8dc-21ca-43b4-ae98-6234798f7cf4" />
+> [!NOTE]
+> ### Missing value ???
+> <img width="369" height="686" alt="截屏2026-11-02 10 36 38" src="https://github.com/user-attachments/assets/e46563c5-6b4a-4897-8bd5-140f628b7f17" />
+> <img width="574" height="218" alt="截屏2026-11-02 10 37 04" src="https://github.com/user-attachments/assets/bc26e8dc-21ca-43b4-ae98-6234798f7cf4" />
 
-- 不能直接删除NA：可能会删除strong signal（比如病情最严重的群体）, 造成 selection bias。
-- Handling missing data -> Imputation
-<img width="672" height="336" alt="截屏2026-11-02 10 39 21" src="https://github.com/user-attachments/assets/843e6b95-06f3-4715-afd0-d14a91b49116" />
+> - 不能直接删除NA：可能会删除strong signal（比如病情最严重的群体）, 造成 selection bias。
+> - Handling missing data -> Imputation
+> <img width="672" height="336" alt="截屏2026-11-02 10 39 21" src="https://github.com/user-attachments/assets/843e6b95-06f3-4715-afd0-d14a91b49116" />
 
-- Imputation Tools
-<img width="767" height="423" alt="截屏2026-11-02 10 40 28" src="https://github.com/user-attachments/assets/73b6dae3-37a1-44e0-99e8-7784f20bfff1" />
-<img width="526" height="623" alt="截屏2026-11-02 10 41 12" src="https://github.com/user-attachments/assets/513d8984-1acb-48ec-b332-1ff2cb5cfa1b" />
+> - Imputation Tools
+> <img width="767" height="423" alt="截屏2026-11-02 10 40 28" src="https://github.com/user-attachments/assets/73b6dae3-37a1-44e0-99e8-7784f20bfff1" />
+> <img width="526" height="623" alt="截屏2026-11-02 10 41 12" src="https://github.com/user-attachments/assets/513d8984-1acb-48ec-b332-1ff2cb5cfa1b" />
 
-### Scaling and KNN ？？？
-假设你想找出与 Liver A 最相似的其他肝脏。
-我们有两个变量：Lactate 和 LDH。
-Lactate 的值可能在 1–5 左右。
-LDH 的值可能在几百左右。
-如果直接计算距离，LDH 的数值差异可能远大于 lactate 的数值差异。
-于是 LDH 可能主导“谁更相似”的判断。
+> [!NOTE]
+> ### Scaling and KNN ？？？
+> 假设你想找出与 Liver A 最相似的其他肝脏。
+> 我们有两个变量：Lactate 和 LDH。
+> Lactate 的值可能在 1–5 左右。
+> LDH 的值可能在几百左右。
+> 如果直接计算距离，LDH 的数值差异可能远大于 lactate 的数值差异。
+> 于是 LDH 可能主导“谁更相似”的判断。
 
-<img width="508" height="485" alt="截屏2026-11-02 10 43 39" src="https://github.com/user-attachments/assets/a82609da-1fa9-478f-8490-ccbf7d9b4214" />
-<img width="677" height="436" alt="截屏2026-11-02 10 44 17" src="https://github.com/user-attachments/assets/880aa00e-fb52-4b9e-a6d0-a988500172f4" />
-<img width="659" height="428" alt="截屏2026-11-02 10 44 39" src="https://github.com/user-attachments/assets/f71d7bdd-3728-41dc-9065-3ad4116aa60e" />
+> <img width="508" height="485" alt="截屏2026-11-02 10 43 39" src="https://github.com/user-attachments/assets/a82609da-1fa9-478f-8490-ccbf7d9b4214" />
+> <img width="677" height="436" alt="截屏2026-11-02 10 44 17" src="https://github.com/user-attachments/assets/880aa00e-fb52-4b9e-a6d0-a988500172f4" />
+> <img width="659" height="428" alt="截屏2026-11-02 10 44 39" src="https://github.com/user-attachments/assets/f71d7bdd-3728-41dc-9065-3ad4116aa60e" />
 
-- **Scaling → Calculate distance → Find neighbours → Impute missing value** ？？？
-<img width="774" height="430" alt="截屏2026-11-02 10 48 03" src="https://github.com/user-attachments/assets/a1cb751d-73cb-46c7-8ddc-db15bfc70b55" />
-<img width="466" height="400" alt="截屏2026-11-02 10 48 17" src="https://github.com/user-attachments/assets/de41f186-859a-428c-93d6-13ff481a5ad8" />
+> - **Scaling → Calculate distance → Find neighbours → Impute missing value** ？？？
+> <img width="774" height="430" alt="截屏2026-11-02 10 48 03" src="https://github.com/user-attachments/assets/a1cb751d-73cb-46c7-8ddc-db15bfc70b55" />
+> <img width="466" height="400" alt="截屏2026-11-02 10 48 17" src="https://github.com/user-attachments/assets/de41f186-859a-428c-93d6-13ff481a5ad8" />
 
 ### Bivariate visualisation
 <img width="768" height="245" alt="截屏2026-11-02 10 51 00" src="https://github.com/user-attachments/assets/ca2c65bb-2c88-43af-bd1b-33e5209f13ef" />
@@ -120,13 +123,25 @@ LDH 的值可能在几百左右。
 - 哪些变量之间几乎没有线性相关。
 - 哪些变量可能包含相似的信息。
 
+## 4 PCA and Data Leakage
 ### PCA
 - 如果PC1解释90%的data，cardinality???
 - U: matrix of eigenvectors
 <img width="775" height="414" alt="截屏2026-11-02 11 02 05" src="https://github.com/user-attachments/assets/9020d8f0-0212-4ca3-b0f6-79ce2e58a55f" />
 
-### Leakage ？？？
+> [!NOTE]
+> ### Leakage ？？？
 <img width="773" height="383" alt="截屏2026-11-02 11 06 09" src="https://github.com/user-attachments/assets/79b24286-e0b0-4caa-a228-26df3740b356" />
 <img width="681" height="671" alt="截屏2026-11-02 11 08 06" src="https://github.com/user-attachments/assets/9bfcfea4-2913-4534-820a-0ab7f8606112" />
 
+## 5 Privacy, bias, and reproducibility
+<img width="508" height="453" alt="截屏2026-11-02 11 45 26" src="https://github.com/user-attachments/assets/8de816b2-b1ba-4cf1-a2f1-e460dfcc8f6a" />
+
+### Data justice
+<img width="529" height="644" alt="截屏2026-11-02 11 42 31" src="https://github.com/user-attachments/assets/530b6894-8eec-40e2-aac3-207c66950593" />
+
+###
+<img width="605" height="427" alt="截屏2026-11-02 11 43 25" src="https://github.com/user-attachments/assets/e34ea41c-6a85-4421-8d44-59437d522145" />
+<img width="230" height="498" alt="截屏2026-11-02 11 43 55" src="https://github.com/user-attachments/assets/06cf6e7d-b4f6-4f08-bc56-e9a0b4c263bd" />
+<img width="485" height="647" alt="截屏2026-11-02 11 44 33" src="https://github.com/user-attachments/assets/876681b8-f241-44dd-83a4-61d1bb6d4b97" />
 
