@@ -57,6 +57,7 @@ Unit of analysis = liver。
 
 ### Log transformation
 <img width="681" height="647" alt="截屏2026-11-02 10 30 44" src="https://github.com/user-attachments/assets/0223f756-4ebc-4ba1-a50d-f3a4eefe5852" />
+
 - Log transformation 可以降低右偏程度，让数据更容易分析。
 - 但不是所有变量都需要 log transformation，而且不能对不符合变换定义域的数值直接使用这个公式。
 <img width="619" height="434" alt="截屏2026-11-02 10 32 21" src="https://github.com/user-attachments/assets/c8c60e55-b849-46f5-bb5f-b92ff271868b" />
@@ -68,9 +69,11 @@ Unit of analysis = liver。
 ### Missing value ???
 <img width="369" height="686" alt="截屏2026-11-02 10 36 38" src="https://github.com/user-attachments/assets/e46563c5-6b4a-4897-8bd5-140f628b7f17" />
 <img width="574" height="218" alt="截屏2026-11-02 10 37 04" src="https://github.com/user-attachments/assets/bc26e8dc-21ca-43b4-ae98-6234798f7cf4" />
+
 - 不能直接删除NA：可能会删除strong signal（比如病情最严重的群体）, 造成 selection bias。
 - Handling missing data -> Imputation
 <img width="672" height="336" alt="截屏2026-11-02 10 39 21" src="https://github.com/user-attachments/assets/843e6b95-06f3-4715-afd0-d14a91b49116" />
+
 - Imputation Tools
 <img width="767" height="423" alt="截屏2026-11-02 10 40 28" src="https://github.com/user-attachments/assets/73b6dae3-37a1-44e0-99e8-7784f20bfff1" />
 <img width="526" height="623" alt="截屏2026-11-02 10 41 12" src="https://github.com/user-attachments/assets/513d8984-1acb-48ec-b332-1ff2cb5cfa1b" />
@@ -86,8 +89,27 @@ LDH 的值可能在几百左右。
 <img width="508" height="485" alt="截屏2026-11-02 10 43 39" src="https://github.com/user-attachments/assets/a82609da-1fa9-478f-8490-ccbf7d9b4214" />
 <img width="677" height="436" alt="截屏2026-11-02 10 44 17" src="https://github.com/user-attachments/assets/880aa00e-fb52-4b9e-a6d0-a988500172f4" />
 <img width="659" height="428" alt="截屏2026-11-02 10 44 39" src="https://github.com/user-attachments/assets/f71d7bdd-3728-41dc-9065-3ad4116aa60e" />
-- Scaling → Calculate distance → Find neighbours → Impute missing value
+
+- **Scaling → Calculate distance → Find neighbours → Impute missing value** ？？？
 <img width="774" height="430" alt="截屏2026-11-02 10 48 03" src="https://github.com/user-attachments/assets/a1cb751d-73cb-46c7-8ddc-db15bfc70b55" />
 <img width="466" height="400" alt="截屏2026-11-02 10 48 17" src="https://github.com/user-attachments/assets/de41f186-859a-428c-93d6-13ff481a5ad8" />
 
+### Bivariate visualisation
+<img width="768" height="245" alt="截屏2026-11-02 10 51 00" src="https://github.com/user-attachments/assets/ca2c65bb-2c88-43af-bd1b-33e5209f13ef" />
+<img width="772" height="419" alt="截屏2026-11-02 10 51 10" src="https://github.com/user-attachments/assets/dfea1156-c295-4f82-b01b-d22b699bb626" />
 
+### Pearson and Spearman correlation
+- *Pearson correlation*
+- Pearson 衡量两个变量的线性相关程度。
+- 相关系数 \(r\) 的范围是：
+\[
+-1\leq r\leq1
+\]
+- r 接近 +1：强正线性相关。
+- r 接近 -1：强负线性相关。
+- r 接近 0：线性相关较弱。
+- *Spearman correlation*
+- Spearman 使用变量的排序信息来衡量单调关系。
+- 例如：
+随着 X 增加，Y 也持续增加，但它们不是沿着一条直线变化。
+- 这种情况下，Spearman 可能更能反映它们的单调关系。
