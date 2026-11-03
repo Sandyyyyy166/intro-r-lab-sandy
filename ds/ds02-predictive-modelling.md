@@ -122,9 +122,30 @@
 <img width="456" height="677" alt="截屏2026-11-03 11 06 41" src="https://github.com/user-attachments/assets/cdf37307-6e25-4cf0-ab01-13951282d44a" />
 <img width="598" height="674" alt="截屏2026-11-03 11 06 55" src="https://github.com/user-attachments/assets/44a8a796-7710-48ed-a19d-cf1d1e3c0429" />
 <img width="418" height="159" alt="截屏2026-11-03 11 07 38" src="https://github.com/user-attachments/assets/f8f0090f-626b-415b-81bd-b342dd7a6c79" />
-
-- 每个tree的m都不一样
+<img width="438" height="557" alt="截屏2026-11-03 11 34 23" src="https://github.com/user-attachments/assets/5ea6a77c-93e0-42f6-875d-3045b71731b0" />
+<img width="521" height="442" alt="截屏2026-11-03 11 34 48" src="https://github.com/user-attachments/assets/700572d2-ca58-45de-b578-6bd8c535163d" />
+<img width="506" height="258" alt="截屏2026-11-03 11 33 20" src="https://github.com/user-attachments/assets/363c9e03-d85d-466a-981e-55d5e4e5da48" />
+<img width="407" height="631" alt="截屏2026-11-03 11 35 16" src="https://github.com/user-attachments/assets/6b956cc9-aed8-4e23-99fa-8f5664764c3f" />
+<img width="627" height="665" alt="截屏2026-11-03 11 35 57" src="https://github.com/user-attachments/assets/4f487cc4-0709-4c4a-ae98-dd081a38b612" />
+<img width="446" height="396" alt="截屏2026-11-03 11 37 04" src="https://github.com/user-attachments/assets/a72ddb9a-4e36-4465-b717-621e08405eaf" />
 
 ### Random forest vs Clustering
 <img width="591" height="623" alt="截屏2026-11-03 11 29 53" src="https://github.com/user-attachments/assets/2399b479-15e4-4124-bc3d-7ac90a8b5851" />
+
+### Random forest参数与模型比较
+<img width="535" height="653" alt="截屏2026-11-03 11 40 43" src="https://github.com/user-attachments/assets/aaa3dafe-dbca-451c-814a-d5a9b6d0c46d" />
+<img width="622" height="547" alt="截屏2026-11-03 11 40 59" src="https://github.com/user-attachments/assets/7ab8e4d6-f45e-4328-a77c-d909fa4ba533" />
+<img width="592" height="451" alt="截屏2026-11-03 11 41 23" src="https://github.com/user-attachments/assets/ed2a7ba5-e4ca-463e-8871-5d249f6bc0f7" />
+<img width="615" height="520" alt="截屏2026-11-03 11 41 51" src="https://github.com/user-attachments/assets/fd90be85-ba31-4e7b-9803-62de19b5882b" />
+
+> [!IMPORTANT]
+> <img width="595" height="517" alt="截屏2026-11-03 11 42 50" src="https://github.com/user-attachments/assets/73f5d684-f6c7-468d-a1ce-a0a39e1f40c1" />
+
+
+##
+<img width="768" height="417" alt="截屏2026-11-03 11 55 08" src="https://github.com/user-attachments/assets/d213af86-3d62-47b2-a451-4f830e1af0b1" />
+<img width="745" height="306" alt="截屏2026-11-03 11 58 38" src="https://github.com/user-attachments/assets/f91ab886-9cb4-4aa7-a52c-df4b3fb627f5" />
+
+
+
 
