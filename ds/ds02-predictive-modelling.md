@@ -26,6 +26,17 @@
 - Evaluate = 用新题目参加考试。
 
 ## 模块一：Formulating the Prediction Problem
+> [!TIP]
+> 英文	中文	一句话记忆
+> Feature	特征	模型的输入
+> Target	目标变量	模型要预测的答案
+> Classification	分类	预测属于哪个类别
+> Regression	回归	预测连续数值
+> Training / Development	训练 / 开发数据	用来学习规律、开发模型
+> Validation	验证数据	用来比较模型、选择参数
+> Test	测试数据	最后评估模型
+> Data Leakage	数据泄漏	模型提前获得不应该知道的信息
+
 <img width="594" height="660" alt="截屏2026-11-03 09 28 07" src="https://github.com/user-attachments/assets/a3c96a00-5c8a-4b29-9228-396d85ddbed2" />
 <img width="616" height="661" alt="截屏2026-11-03 09 43 25" src="https://github.com/user-attachments/assets/2da1f4ef-65e6-4db0-a5ab-789264329cc5" />
 <img width="442" height="471" alt="截屏2026-11-03 09 43 38" src="https://github.com/user-attachments/assets/727122fd-a017-4382-91e1-542c02c42394" />
@@ -49,5 +60,18 @@
 
 > [!IMPORTANT]
 > Cross-validation 不只是重新训练模型，还需要在每一折内部重新拟合所有依赖数据的预处理步骤。
+> K-fold Cross-validation = 轮流用不同组做 Validation → 每轮重新 Fit Model → 计算并汇总 Validation Loss → 选择合适的模型设置 → 用完整 Development Set 重新训练最终模型。
+> 每一折用来验证的数据叫 Validation Set，不是最终的 Test Set。
+> 例如：用 4 组（48 个肝脏）训练一个模型。用剩下的 1 组（12 个肝脏）进行 Validation。计算这个模型的 Validation Loss。换一组作为 Validation，再重新训练一个模型。
+> 最后取平均的是模型的验证表现（例如 Loss），而不是把 K 个模型本身取平均。
 
+## 模块二：Clustering（聚类分析）
+<img width="785" height="507" alt="截屏2026-11-03 10 03 02" src="https://github.com/user-attachments/assets/644cf959-c9cf-4f20-92ee-ae42a27d2330" />
+<img width="459" height="278" alt="截屏2026-11-03 10 02 26" src="https://github.com/user-attachments/assets/5fdf30d2-7ada-477c-a306-61881f56bd26" />
+<img width="563" height="659" alt="截屏2026-11-03 10 02 06" src="https://github.com/user-attachments/assets/0d686d74-080c-4699-8dee-e11e2232eefa" />
 
+### K-means Clustering
+
+<img width="340" height="627" alt="截屏2026-11-03 10 03 55" src="https://github.com/user-attachments/assets/942bf2ef-7b8e-452a-9665-f9317e1fcd65" />
+
+Logistic Regression 虽然名字里有 Regression，但通常用于分类问题。
