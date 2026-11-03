@@ -27,3 +27,19 @@
 
 ## 模块一：Formulating the Prediction Problem
 <img width="594" height="660" alt="截屏2026-11-03 09 28 07" src="https://github.com/user-attachments/assets/a3c96a00-5c8a-4b29-9228-396d85ddbed2" />
+<img width="616" height="661" alt="截屏2026-11-03 09 43 25" src="https://github.com/user-attachments/assets/2da1f4ef-65e6-4db0-a5ab-789264329cc5" />
+<img width="442" height="471" alt="截屏2026-11-03 09 43 38" src="https://github.com/user-attachments/assets/727122fd-a017-4382-91e1-542c02c42394" />
+<img width="615" height="649" alt="截屏2026-11-03 09 44 00" src="https://github.com/user-attachments/assets/72de75f3-1051-42eb-a87a-01139605eac6" />
+<img width="619" height="468" alt="截屏2026-11-03 09 44 15" src="https://github.com/user-attachments/assets/4f1fd297-944b-42fe-90d1-e78b25363840" />
+<img width="765" height="271" alt="截屏2026-11-03 09 47 53" src="https://github.com/user-attachments/assets/ee3cdc75-5eaa-40c2-a670-b38b9f089753" />
+<img width="562" height="590" alt="截屏2026-11-03 09 44 41" src="https://github.com/user-attachments/assets/bb3cb7ff-df7e-48a2-b200-ba3530596960" />
+<img width="582" height="676" alt="截屏2026-11-03 09 45 00" src="https://github.com/user-attachments/assets/d00b57d7-716a-499b-8ba5-f3e4798f7568" />
+<img width="627" height="621" alt="截屏2026-11-03 09 45 12" src="https://github.com/user-attachments/assets/d7928b5c-cf68-44a4-abc0-53cfa734a9d2" />
+<img width="485" height="646" alt="截屏2026-11-03 09 45 27" src="https://github.com/user-attachments/assets/e47d4561-8d5f-423f-80eb-75581d40a923" />
+<img width="425" height="677" alt="截屏2026-11-03 09 45 42" src="https://github.com/user-attachments/assets/e38c22a4-c47b-4490-a795-d13ca61002b6" />
+<img width="622" height="498" alt="截屏2026-11-03 09 45 57" src="https://github.com/user-attachments/assets/5e2b3ef4-8a3d-41dc-b667-c57dd6814f4a" />
+
+> [!IMPORTANT]
+> 模型开发不能偷看测试数据的答案，也不能通过预处理、重复对象或身份标识间接获得不应该知道的信息。
+
+
