@@ -109,15 +109,22 @@
 <img width="572" height="367" alt="截屏2026-11-03 10 54 52" src="https://github.com/user-attachments/assets/6de15ea1-ef3d-4539-bce5-8cc21c511d63" />
 <img width="790" height="393" alt="截屏2026-11-03 10 55 19" src="https://github.com/user-attachments/assets/452900ce-3f2c-454a-9a24-26e3dd598e67" />
 <img width="593" height="648" alt="截屏2026-11-03 10 55 54" src="https://github.com/user-attachments/assets/d868c92d-9a8a-4f47-9685-89088bf0314f" />
+<img width="613" height="642" alt="截屏2026-11-03 11 27 40" src="https://github.com/user-attachments/assets/c8c35b38-24e2-4b27-83c8-efc8d054d22b" />
+<img width="539" height="442" alt="截屏2026-11-03 11 28 21" src="https://github.com/user-attachments/assets/c8760f10-f7e7-4428-9ba3-f71669c57158" />
 <img width="599" height="665" alt="截屏2026-11-03 10 57 14" src="https://github.com/user-attachments/assets/2955ebfc-d1a6-4564-934d-3a8d389028cb" />
 <img width="617" height="418" alt="截屏2026-11-03 10 59 18" src="https://github.com/user-attachments/assets/0dc1300c-f811-4eaa-ac1d-56fe860d2848" />
 <img width="641" height="678" alt="截屏2026-11-03 11 00 19" src="https://github.com/user-attachments/assets/cbf56cfe-e0f9-485d-91fb-aec2c9bed8b2" />
 <img width="311" height="143" alt="截屏2026-11-03 11 01 20" src="https://github.com/user-attachments/assets/4f622614-8dbd-4bbd-ae7d-790df3aad4a0" />
 
-### Random forest
+### Random forest：每棵树都不一样
 <img width="715" height="382" alt="截屏2026-11-03 11 02 08" src="https://github.com/user-attachments/assets/850f73f8-9919-4548-bab2-be9b8dd6f285" />
 <img width="639" height="618" alt="截屏2026-11-03 11 04 51" src="https://github.com/user-attachments/assets/cbeb2443-391e-49e6-923c-11a66dd73879" />
 <img width="456" height="677" alt="截屏2026-11-03 11 06 41" src="https://github.com/user-attachments/assets/cdf37307-6e25-4cf0-ab01-13951282d44a" />
 <img width="598" height="674" alt="截屏2026-11-03 11 06 55" src="https://github.com/user-attachments/assets/44a8a796-7710-48ed-a19d-cf1d1e3c0429" />
 <img width="418" height="159" alt="截屏2026-11-03 11 07 38" src="https://github.com/user-attachments/assets/f8f0090f-626b-415b-81bd-b342dd7a6c79" />
+
+- 每个tree的m都不一样
+
+### Random forest vs Clustering
+<img width="591" height="623" alt="截屏2026-11-03 11 29 53" src="https://github.com/user-attachments/assets/2399b479-15e4-4124-bc3d-7ac90a8b5851" />
 
