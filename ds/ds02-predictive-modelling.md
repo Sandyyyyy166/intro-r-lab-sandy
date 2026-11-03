@@ -31,9 +31,9 @@
 <img width="442" height="471" alt="截屏2026-11-03 09 43 38" src="https://github.com/user-attachments/assets/727122fd-a017-4382-91e1-542c02c42394" />
 <img width="615" height="649" alt="截屏2026-11-03 09 44 00" src="https://github.com/user-attachments/assets/72de75f3-1051-42eb-a87a-01139605eac6" />
 <img width="619" height="468" alt="截屏2026-11-03 09 44 15" src="https://github.com/user-attachments/assets/4f1fd297-944b-42fe-90d1-e78b25363840" />
-<img width="765" height="271" alt="截屏2026-11-03 09 47 53" src="https://github.com/user-attachments/assets/ee3cdc75-5eaa-40c2-a670-b38b9f089753" />
 <img width="562" height="590" alt="截屏2026-11-03 09 44 41" src="https://github.com/user-attachments/assets/bb3cb7ff-df7e-48a2-b200-ba3530596960" />
 <img width="582" height="676" alt="截屏2026-11-03 09 45 00" src="https://github.com/user-attachments/assets/d00b57d7-716a-499b-8ba5-f3e4798f7568" />
+<img width="765" height="271" alt="截屏2026-11-03 09 47 53" src="https://github.com/user-attachments/assets/ee3cdc75-5eaa-40c2-a670-b38b9f089753" />
 <img width="627" height="621" alt="截屏2026-11-03 09 45 12" src="https://github.com/user-attachments/assets/d7928b5c-cf68-44a4-abc0-53cfa734a9d2" />
 <img width="485" height="646" alt="截屏2026-11-03 09 45 27" src="https://github.com/user-attachments/assets/e47d4561-8d5f-423f-80eb-75581d40a923" />
 <img width="425" height="677" alt="截屏2026-11-03 09 45 42" src="https://github.com/user-attachments/assets/e38c22a4-c47b-4490-a795-d13ca61002b6" />
@@ -41,5 +41,13 @@
 
 > [!IMPORTANT]
 > 模型开发不能偷看测试数据的答案，也不能通过预处理、重复对象或身份标识间接获得不应该知道的信息。
+
+<img width="461" height="448" alt="截屏2026-11-03 09 49 29" src="https://github.com/user-attachments/assets/4b15ea6a-5242-4e6b-8f3f-241e79c31e1d" />
+<img width="336" height="126" alt="截屏2026-11-03 09 49 15" src="https://github.com/user-attachments/assets/5c0ceecb-57e5-4172-a25f-4f4782c5f91f" />
+<img width="379" height="578" alt="截屏2026-11-03 09 50 01" src="https://github.com/user-attachments/assets/866a6027-22e8-4f91-8af8-503c3f2b8c72" />
+<img width="555" height="463" alt="截屏2026-11-03 09 50 27" src="https://github.com/user-attachments/assets/062d2842-4ac1-4159-8cf6-b5b077590fba" />
+
+> [!IMPORTANT]
+> Cross-validation 不只是重新训练模型，还需要在每一折内部重新拟合所有依赖数据的预处理步骤。
 
 
