@@ -12,6 +12,8 @@
 ## 为什么要分Training / Validation / Test？
 <img width="638" height="554" alt="截屏2026-11-04 09 57 58" src="https://github.com/user-attachments/assets/7a627450-7c0a-4d9e-bdeb-444e08ee3207" />
 
+!!待补充elastic net
+
 ## Tree Models & XGBoost
 <img width="615" height="555" alt="截屏2026-11-04 10 19 26" src="https://github.com/user-attachments/assets/d66b963f-5e43-44be-a191-2ea78650078d" />
 <img width="773" height="377" alt="截屏2026-11-04 10 20 52" src="https://github.com/user-attachments/assets/37650b44-d7cf-47eb-a54a-6c88af09cb74" />
@@ -60,7 +62,54 @@ Loss 越小，代表模型在这个指标下预测得越好。
 <img width="615" height="539" alt="截屏2026-11-04 10 47 20" src="https://github.com/user-attachments/assets/98c4b882-436f-42dc-a663-b1c99d494692" />
 <img width="614" height="281" alt="截屏2026-11-04 10 47 47" src="https://github.com/user-attachments/assets/71073c21-18ca-4183-957b-284ab25b4778" />
 
+!!待补充其他step
+
 ### 总结：XGBoost
 <img width="773" height="355" alt="截屏2026-11-04 11 19 03" src="https://github.com/user-attachments/assets/304930d1-2436-4ade-a6b0-4fe20937a1ae" />
+<img width="609" height="514" alt="截屏2026-11-04 11 20 25" src="https://github.com/user-attachments/assets/91e3c03a-411f-4f2a-9ade-c5f93e0b4a05" />
+<img width="594" height="525" alt="截屏2026-11-04 11 21 06" src="https://github.com/user-attachments/assets/8145c440-47d5-4957-a379-9213c04d3b41" />
+
+## Practical: CCLE data
+<img width="358" height="333" alt="截屏2026-11-04 11 53 41" src="https://github.com/user-attachments/assets/f0899c80-4e15-477d-928c-dce4a6e3d7b8" />
+<img width="634" height="590" alt="截屏2026-11-04 11 25 31" src="https://github.com/user-attachments/assets/a4b7a8e1-44d8-4288-b1c9-51d1de29ec56" />
+<img width="621" height="480" alt="截屏2026-11-04 11 26 47" src="https://github.com/user-attachments/assets/79cdecd9-65cc-4545-8d10-d1dba447a49a" />
+<img width="759" height="340" alt="截屏2026-11-04 11 27 55" src="https://github.com/user-attachments/assets/66c3b8f2-e88a-4183-b489-71083621096b" />
+
+### Why join?
+<img width="740" height="413" alt="截屏2026-11-04 11 27 30" src="https://github.com/user-attachments/assets/02421db0-c1ff-4d3f-b53d-7c437e1a245f" />
+<img width="618" height="581" alt="截屏2026-11-04 11 28 12" src="https://github.com/user-attachments/assets/9f01e82b-0b9e-4d56-971c-cda7c5ab7f83" />
+
+### What are we predicting?
+<img width="776" height="377" alt="截屏2026-11-04 11 31 56" src="https://github.com/user-attachments/assets/356bc15e-e0d1-4cba-9b3d-93bf7dff6aa8" />
+<img width="557" height="493" alt="截屏2026-11-04 11 32 09" src="https://github.com/user-attachments/assets/240e6dc6-56e1-45b5-81d8-a447e4fb7c36" />
+
+!!待补充46-49
+### From Prediction to Regulatory Explanation
+
+### Gene Regulatory Networks 生物学网络和优化思想
+- Gene Regulatory Network = 基因调控网络。
+- Node = Gene（基因）
+- Edge = Interaction（相互作用）
+<img width="626" height="477" alt="截屏2026-11-04 11 39 16" src="https://github.com/user-attachments/assets/ec0a84cd-3507-4c3e-b09a-8c0c907dbae6" />
+<img width="504" height="405" alt="截屏2026-11-04 11 40 42" src="https://github.com/user-attachments/assets/5aec9535-6239-496a-ae12-15fbb787284f" />
+<img width="592" height="616" alt="截屏2026-11-04 11 40 28" src="https://github.com/user-attachments/assets/b9beb745-84cb-4706-8ef6-adb7d139f1be" />
+<img width="721" height="354" alt="截屏2026-11-04 11 46 06" src="https://github.com/user-attachments/assets/1ef28167-ba1c-4e33-9278-8ec5c104c699" />
+<img width="540" height="573" alt="截屏2026-11-04 11 46 24" src="https://github.com/user-attachments/assets/b3085702-2928-47f7-9263-bf4edb10d5cc" />
+<img width="560" height="240" alt="截屏2026-11-04 11 46 39" src="https://github.com/user-attachments/assets/e233f69b-0757-47e2-b3a4-20ac031f9a6b" />
+<img width="613" height="664" alt="截屏2026-11-04 11 47 24" src="https://github.com/user-attachments/assets/d5bad0d6-785f-4829-9dac-0d1cc31e2d09" />
+
+### CARNIVAL
+<img width="582" height="680" alt="截屏2026-11-04 11 48 00" src="https://github.com/user-attachments/assets/64094d5f-df25-4c9f-8b7d-752d0ed10423" />
+<img width="766" height="400" alt="截屏2026-11-04 11 49 18" src="https://github.com/user-attachments/assets/6367d761-24c8-424a-94bc-1f4a980231cb" />
+<img width="752" height="422" alt="截屏2026-11-04 11 49 35" src="https://github.com/user-attachments/assets/3b3f32ee-d4db-4887-ad8e-b6895498daf2" />
+<img width="573" height="491" alt="截屏2026-11-04 11 50 07" src="https://github.com/user-attachments/assets/b3fd53de-3320-4a2a-a3cc-7e98a3afad4f" />
+<img width="613" height="579" alt="截屏2026-11-04 11 50 29" src="https://github.com/user-attachments/assets/949c0147-3938-4f00-9ef5-cdd3e6228b5a" />
+
+## Combining models
+<img width="768" height="372" alt="截屏2026-11-04 11 52 15" src="https://github.com/user-attachments/assets/9daa5516-eb95-4ede-9aad-95465eb2e2b1" />
+<img width="772" height="376" alt="截屏2026-11-04 11 55 30" src="https://github.com/user-attachments/assets/e6f5542e-422a-44c3-8cbd-390316ec6979" />
+
+> [!TIP]
+> 
 
 
