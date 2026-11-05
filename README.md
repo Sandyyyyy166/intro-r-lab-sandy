@@ -22,4 +22,4 @@
 - [Lec 01 — Reliable Data](ds/ds01-data-analysis.md)
 - [Lec 02 — Predictive Modelling](ds/ds02-predictive-modelling.md)
 - [Lec 03 — High Dim ML](ds/ds03-high-dim-ml.md)
-- 
+- [Lec 04 - Optimisation](ds/ds04-optimisation.md)
