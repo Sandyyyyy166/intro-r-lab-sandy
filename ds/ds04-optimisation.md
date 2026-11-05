@@ -52,3 +52,58 @@ Operational capacity ≠ Causal health benefit
 ### Step 7A efficiency objective 最大化所有医疗机构的总服务量
 <img width="709" height="206" alt="截屏2026-11-05 09 59 02" src="https://github.com/user-attachments/assets/7f4d60fe-97ae-4d28-8b29-50e6b96ae978" />
 
+### Step 7B: equity-weighted objective 权重改变的是政策评价标准，不是实际服务人数
+<img width="778" height="271" alt="截屏2026-11-05 10 29 01" src="https://github.com/user-attachments/assets/333333e5-1f85-4e12-b0be-2441bae838b5" />
+<img width="430" height="264" alt="截屏2026-11-05 10 28 47" src="https://github.com/user-attachments/assets/8bf84bc5-55cb-4fd5-8834-2c66117e2ae6" />
+
+### MILP = Mixed Integer Linear Programming（混合整数线性规划）
+- Mixed（混合）：模型同时有整数变量 \(x_i\) 和连续变量 \(y_i\)。
+- Integer（整数）：团队数量必须是整数。
+- Linear（线性）：公式中没有决策变量之间相乘、变量平方等非线性关系。
+- Programming（规划）：这里指数学优化，不是写程序代码。
+- 所以 MILP 本质上就是：在满足一系列线性约束的情况下，寻找最优的变量组合，其中部分变量必须是整数。
+
+<img width="630" height="387" alt="截屏2026-11-05 10 29 37" src="https://github.com/user-attachments/assets/d96dcb31-d8c7-4827-9cbb-79b6ba56ade2" />
+<img width="766" height="286" alt="截屏2026-11-05 10 32 10" src="https://github.com/user-attachments/assets/6dc05555-2ca5-4976-8f8e-c736bbd095ac" />
+
+### Coverage：Higher service volume does not necessarily mean higher coverage
+<img width="672" height="357" alt="截屏2026-11-05 10 33 21" src="https://github.com/user-attachments/assets/01eb6a14-1d4c-4829-9976-e6e29fa7dc5d" />
+<img width="393" height="652" alt="截屏2026-11-05 10 34 05" src="https://github.com/user-attachments/assets/7e0af5d1-5496-46e0-82aa-120dacdbb6a8" />
+<img width="458" height="650" alt="截屏2026-11-05 10 36 30" src="https://github.com/user-attachments/assets/92cc3628-f672-4b4f-af7f-44440d57b9e1" />
+
+## What the solver is doing
+### feasible
+<img width="739" height="413" alt="截屏2026-11-05 10 38 36" src="https://github.com/user-attachments/assets/7034556f-7ecf-4644-b3d6-8a68d5e91d59" />
+<img width="611" height="610" alt="截屏2026-11-05 10 39 15" src="https://github.com/user-attachments/assets/136df307-b688-4645-8d0b-6c85cc6ebd06" />
+
+### infeasible
+<img width="484" height="656" alt="截屏2026-11-05 10 41 50" src="https://github.com/user-attachments/assets/f0a7ad55-f3b2-422e-bb8f-25b1923696b6" />
+<img width="614" height="672" alt="截屏2026-11-05 10 43 35" src="https://github.com/user-attachments/assets/d138b82c-65e5-44aa-8800-2b8413e4cfec" />
+<img width="458" height="432" alt="截屏2026-11-05 10 43 59" src="https://github.com/user-attachments/assets/953b3acc-2f40-47d2-b278-44a0beca6d0b" />
+
+### Feasible region
+<img width="713" height="355" alt="截屏2026-11-05 10 44 55" src="https://github.com/user-attachments/assets/474738da-6711-4713-9011-ba678c5a701d" />
+- LP（Linear Programming）：允许连续变量，因此三角形中的所有点(infinite)都可以是可行解。
+- MILP（Mixed Integer Linear Programming）：要求部分变量为整数，因此只能选择满足整数限制的点。
+  
+<img width="710" height="428" alt="截屏2026-11-05 10 45 21" src="https://github.com/user-attachments/assets/142d963c-6365-4f9e-a081-1adaa488d44c" />
+<img width="628" height="565" alt="截屏2026-11-05 10 46 55" src="https://github.com/user-attachments/assets/4e1cb761-9089-4308-9ea2-8d328fc35932" />
+<img width="610" height="378" alt="截屏2026-11-05 10 47 28" src="https://github.com/user-attachments/assets/d882bdfe-dc0a-4f88-b365-ccca1d19d9a6" />
+
+### LP relaxation
+<img width="387" height="649" alt="截屏2026-11-05 10 48 09" src="https://github.com/user-attachments/assets/bd84ac59-b5d2-41b0-815d-fbb56e52d05d" />
+<img width="420" height="456" alt="截屏2026-11-05 10 48 24" src="https://github.com/user-attachments/assets/e607fc54-0587-4935-9195-eb0a96f828a2" />
+<img width="407" height="612" alt="截屏2026-11-05 10 48 56" src="https://github.com/user-attachments/assets/e09b117c-3ded-4343-b7f4-7619fa31de0b" />
+<img width="619" height="640" alt="截屏2026-11-05 10 49 35" src="https://github.com/user-attachments/assets/11032bd1-8c12-46ce-8a40-1456e9244da8" />
+
+### Branch-and-Bound 分支定界法
+<img width="613" height="668" alt="截屏2026-11-05 10 51 01" src="https://github.com/user-attachments/assets/4430d9d6-31af-4e03-95d7-19342d472127" />
+<img width="509" height="664" alt="截屏2026-11-05 10 52 02" src="https://github.com/user-attachments/assets/72895bea-a267-4c60-a150-e67e7b4f3b84" />
+<img width="595" height="319" alt="截屏2026-11-05 10 52 53" src="https://github.com/user-attachments/assets/f3c46985-20c0-4a6b-8f73-295c2c1fa8d5" />
+
+### Solver gap and optimality gap 最优性差距
+<img width="492" height="489" alt="截屏2026-11-05 10 53 14" src="https://github.com/user-attachments/assets/dd5bca90-3e23-4cab-9981-8525c811efb8" />
+<img width="406" height="598" alt="截屏2026-11-05 10 54 52" src="https://github.com/user-attachments/assets/65b70500-6933-4915-9c37-561f9eab8dce" />
+<img width="426" height="279" alt="截屏2026-11-05 10 55 06" src="https://github.com/user-attachments/assets/04340683-1f76-48df-9221-60aefc31688f" />
+
+
