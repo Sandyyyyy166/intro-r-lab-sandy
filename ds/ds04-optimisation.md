@@ -83,12 +83,17 @@ Operational capacity ≠ Causal health benefit
 
 ### Feasible region
 <img width="713" height="355" alt="截屏2026-11-05 10 44 55" src="https://github.com/user-attachments/assets/474738da-6711-4713-9011-ba678c5a701d" />
+
 - LP（Linear Programming）：允许连续变量，因此三角形中的所有点(infinite)都可以是可行解。
 - MILP（Mixed Integer Linear Programming）：要求部分变量为整数，因此只能选择满足整数限制的点。
-  
+
 <img width="710" height="428" alt="截屏2026-11-05 10 45 21" src="https://github.com/user-attachments/assets/142d963c-6365-4f9e-a081-1adaa488d44c" />
 <img width="628" height="565" alt="截屏2026-11-05 10 46 55" src="https://github.com/user-attachments/assets/4e1cb761-9089-4308-9ea2-8d328fc35932" />
 <img width="610" height="378" alt="截屏2026-11-05 10 47 28" src="https://github.com/user-attachments/assets/d882bdfe-dc0a-4f88-b365-ccca1d19d9a6" />
+<img width="583" height="223" alt="截屏2026-11-05 10 58 29" src="https://github.com/user-attachments/assets/77b5f757-f42b-4ae2-9221-1a57ce4f7808" />
+<img width="384" height="670" alt="截屏2026-11-05 10 58 51" src="https://github.com/user-attachments/assets/1f88d741-27f8-46cd-90a5-deb446de57ee" />
+<img width="386" height="622" alt="截屏2026-11-05 10 59 10" src="https://github.com/user-attachments/assets/6a239943-7a2c-4429-9c52-615e9fb5d5df" />
+<img width="444" height="460" alt="截屏2026-11-05 10 59 36" src="https://github.com/user-attachments/assets/3e18a46e-679a-4086-88b8-9c92e72bce27" />
 
 ### LP relaxation
 <img width="387" height="649" alt="截屏2026-11-05 10 48 09" src="https://github.com/user-attachments/assets/bd84ac59-b5d2-41b0-815d-fbb56e52d05d" />
@@ -106,4 +111,7 @@ Operational capacity ≠ Causal health benefit
 <img width="406" height="598" alt="截屏2026-11-05 10 54 52" src="https://github.com/user-attachments/assets/65b70500-6933-4915-9c37-561f9eab8dce" />
 <img width="426" height="279" alt="截屏2026-11-05 10 55 06" src="https://github.com/user-attachments/assets/04340683-1f76-48df-9221-60aefc31688f" />
 
+### Matrix form 就是把很多条数学公式压缩成两个矩阵表达式
+<img width="511" height="478" alt="截屏2026-11-05 11 15 57" src="https://github.com/user-attachments/assets/926b41b3-b145-4b9d-a810-c4de8fb50720" />
+<img width="342" height="231" alt="截屏2026-11-05 11 17 14" src="https://github.com/user-attachments/assets/afeec391-f452-427d-ac80-f1e3fb28825d" />
 
