@@ -113,5 +113,48 @@ Operational capacity ≠ Causal health benefit
 
 ### Matrix form 就是把很多条数学公式压缩成两个矩阵表达式
 <img width="511" height="478" alt="截屏2026-11-05 11 15 57" src="https://github.com/user-attachments/assets/926b41b3-b145-4b9d-a810-c4de8fb50720" />
+<img width="777" height="259" alt="截屏2026-11-05 11 20 56" src="https://github.com/user-attachments/assets/52ab3b98-fd5b-475e-a97f-b99ba9d22c64" />
 <img width="342" height="231" alt="截屏2026-11-05 11 17 14" src="https://github.com/user-attachments/assets/afeec391-f452-427d-ac80-f1e3fb28825d" />
 
+## Equity, Efficiency & Policy Trade-offs
+<img width="551" height="381" alt="截屏2026-11-05 11 22 46" src="https://github.com/user-attachments/assets/0ba30286-57f8-44cb-959c-3c11bf0ba957" />
+<img width="715" height="327" alt="截屏2026-11-05 11 22 58" src="https://github.com/user-attachments/assets/8d45f7ab-6138-4c82-92ce-e5fa9bf11879" />
+<img width="450" height="611" alt="截屏2026-11-05 11 25 28" src="https://github.com/user-attachments/assets/200c5737-4090-4cdc-8c79-f7bb9a95a598" />
+<img width="555" height="646" alt="截屏2026-11-05 11 25 50" src="https://github.com/user-attachments/assets/0bb5cbb6-43b0-4476-a717-2d96ad99fe93" />
+<img width="453" height="650" alt="截屏2026-11-05 11 26 08" src="https://github.com/user-attachments/assets/e42ef56d-8ded-4e67-9267-fb8dc982e63b" />
+<img width="703" height="345" alt="截屏2026-11-05 11 27 24" src="https://github.com/user-attachments/assets/83278ee2-15f6-4c19-a689-c18d42252850" />
+<img width="579" height="316" alt="截屏2026-11-05 11 27 43" src="https://github.com/user-attachments/assets/92880630-f7a3-4fcf-a05c-2809605c765d" />
+<img width="708" height="277" alt="截屏2026-11-05 11 28 34" src="https://github.com/user-attachments/assets/a7cffa6b-bcfe-49d9-ab16-fb49af3cacb8" />
+<img width="433" height="647" alt="截屏2026-11-05 11 28 46" src="https://github.com/user-attachments/assets/24ea954b-7e94-406d-a38a-26569b12835c" />
+
+## Uncertainty, Robustness & Sensitivity Analysis
+这一部分的核心问题是：
+如果我们用来优化的 Demand（需求）本身就是预测值，而预测可能不准确，那么所谓的 Optimal Allocation 还可靠吗？
+老师用三个概念来回答：
+- Scenario analysis（情景分析）：不同预测情景下，最优分配会怎么变？
+- Robustness（稳健性）：哪个分配方案在不同情景下都表现得比较可靠？
+- Budget sensitivity（预算敏感性）：预算增加或减少时，最优方案如何变化？
+
+- Demand is uncertain.
+- Optimising a point forecast can produce a brittle allocation.
+仅仅根据单一预测值优化，可能产生一个非常脆弱的资源分配方案。
+
+<img width="617" height="620" alt="截屏2026-11-05 11 34 38" src="https://github.com/user-attachments/assets/d15df731-df21-47ee-b396-3daacaa9d4ba" />
+<img width="589" height="616" alt="截屏2026-11-05 11 35 06" src="https://github.com/user-attachments/assets/b4a4d24c-4f96-4b57-bb64-29cdcfd3f7c5" />
+<img width="584" height="580" alt="截屏2026-11-05 11 35 23" src="https://github.com/user-attachments/assets/88276871-efcf-42ba-86c8-39c65a7d591f" />
+<img width="620" height="650" alt="截屏2026-11-05 11 35 41" src="https://github.com/user-attachments/assets/25517df8-3834-46a2-baa0-5073331d35f2" />
+<img width="438" height="548" alt="截屏2026-11-05 11 35 54" src="https://github.com/user-attachments/assets/c9edffcd-f55e-4a25-81ac-f4092d68963a" />
+<img width="606" height="618" alt="截屏2026-11-05 11 36 09" src="https://github.com/user-attachments/assets/9721038e-7507-4a0b-a25f-4065a30ac2df" />
+<img width="615" height="671" alt="截屏2026-11-05 11 36 26" src="https://github.com/user-attachments/assets/7a1fc507-0740-4084-b82f-d9b6c342632f" />
+<img width="445" height="656" alt="截屏2026-11-05 11 36 49" src="https://github.com/user-attachments/assets/575261ea-45e3-4342-9bde-fd5fd90c7363" />
+
+## Validation, Baselines
+<img width="699" height="318" alt="截屏2026-11-05 11 39 36" src="https://github.com/user-attachments/assets/bfdb2fa9-02bd-4a82-b776-d561a246893a" />
+<img width="675" height="293" alt="截屏2026-11-05 11 40 15" src="https://github.com/user-attachments/assets/989abbcd-4cf0-4fd2-a07c-6ffbaced0f4e" />
+<img width="522" height="654" alt="截屏2026-11-05 11 41 41" src="https://github.com/user-attachments/assets/65df4b14-66e0-4f3a-a6d2-bec3507c961b" />
+<img width="444" height="410" alt="截屏2026-11-05 11 41 57" src="https://github.com/user-attachments/assets/e481e1e0-27b1-4695-b155-532a59cf3538" />
+<img width="625" height="559" alt="截屏2026-11-05 11 43 08" src="https://github.com/user-attachments/assets/c22621b1-6f99-4bef-aa12-a3bdd1a1c6ac" />
+<img width="359" height="661" alt="截屏2026-11-05 11 43 21" src="https://github.com/user-attachments/assets/3e90c87f-4235-46b9-90eb-70af118b922f" />
+<img width="609" height="666" alt="截屏2026-11-05 11 43 45" src="https://github.com/user-attachments/assets/34b50b83-bf66-4bd4-88d7-2508a2471660" />
+<img width="616" height="667" alt="截屏2026-11-05 11 43 57" src="https://github.com/user-attachments/assets/a94d1488-1219-4f97-8f1b-404c5182ea4b" />
+<img width="429" height="604" alt="截屏2026-11-05 11 44 11" src="https://github.com/user-attachments/assets/8e3ed5fb-f829-4e47-89a1-e330f34f1f76" />
